@@ -16,9 +16,8 @@ from lifelines import CoxPHFitter
 from lifelines.utils import concordance_index
 import torch
 
-import config
-from graph_prior import load_graph_prior
-from dataset_survival_classifier import load_and_preprocess_survival_data
+from survival_classifier import config
+from survival_classifier.data import load_graph_prior, load_and_preprocess_survival_data
 
 
 def prepare_survival_data(data_splits, survival_info):

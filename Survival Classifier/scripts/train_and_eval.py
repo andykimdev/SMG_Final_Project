@@ -17,15 +17,14 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-import config
-from graph_prior import load_graph_prior, get_graph_features_as_tensors
-from dataset_survival_classifier import load_and_preprocess_survival_data, create_survival_dataloaders
-from graph_transformer_survival_classifier import (
-    SurvivalGraphTransformer,
-    CoxPHLoss,
-    ConcordanceIndex,
-    train_survival_epoch,
-    evaluate_survival
+from survival_classifier import config
+from survival_classifier.data import (
+    load_graph_prior, get_graph_features_as_tensors,
+    load_and_preprocess_survival_data, create_survival_dataloaders
+)
+from survival_classifier.models import (
+    SurvivalGraphTransformer, CoxPHLoss, ConcordanceIndex,
+    train_survival_epoch, evaluate_survival
 )
 
 

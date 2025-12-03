@@ -12,15 +12,14 @@ import numpy as np
 import torch
 import torch.optim as optim
 
-import config
-from graph_prior import load_graph_prior, get_graph_features_as_tensors
-from dataset_survival_classifier import load_and_preprocess_survival_data, create_survival_dataloaders
-from baseline_models import MLPSurvivalModel, VanillaTransformerSurvival, ProteinOnlyMLP
-from graph_transformer_survival_classifier import (
-    CoxPHLoss,
-    ConcordanceIndex,
-    train_survival_epoch,
-    evaluate_survival
+from survival_classifier import config
+from survival_classifier.data import (
+    load_graph_prior, get_graph_features_as_tensors,
+    load_and_preprocess_survival_data, create_survival_dataloaders
+)
+from survival_classifier.models import (
+    MLPSurvivalModel, VanillaTransformerSurvival, ProteinOnlyMLP,
+    CoxPHLoss, ConcordanceIndex, train_survival_epoch, evaluate_survival
 )
 
 

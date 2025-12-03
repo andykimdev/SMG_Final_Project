@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from typing import Dict, Tuple, List, Optional
-import config
+from .. import config
 
 
 class TCGASurvivalDataset(Dataset):

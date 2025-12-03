@@ -5,7 +5,7 @@ Tests whether PPI network topology provides predictive value.
 
 import torch
 import torch.nn as nn
-import config
+from .. import config
 
 
 class MLPSurvivalModel(nn.Module):

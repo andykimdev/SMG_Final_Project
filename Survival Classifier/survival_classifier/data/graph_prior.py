@@ -8,7 +8,7 @@ from scipy.sparse import csgraph
 from scipy.sparse.linalg import eigsh
 import torch
 from typing import Dict, Tuple
-import config
+from .. import config
 
 
 def load_graph_prior(prior_path: str) -> Dict:

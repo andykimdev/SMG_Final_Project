@@ -13,31 +13,31 @@ print("=" * 80)
 # Test 1: Import all modules
 print("\n1. Testing imports...")
 try:
-    import config
-    print("  ✓ config.py imported")
+    from survival_classifier import config
+    print("  ✓ config imported")
 except Exception as e:
-    print(f"  ✗ Failed to import config.py: {e}")
+    print(f"  ✗ Failed to import config: {e}")
     sys.exit(1)
 
 try:
-    from graph_prior import load_graph_prior, get_graph_features_as_tensors
-    print("  ✓ graph_prior.py imported")
+    from survival_classifier.data import load_graph_prior, get_graph_features_as_tensors
+    print("  ✓ graph_prior imported")
 except Exception as e:
-    print(f"  ✗ Failed to import graph_prior.py: {e}")
+    print(f"  ✗ Failed to import graph_prior: {e}")
     sys.exit(1)
 
 try:
-    from dataset_survival_classifier import load_and_preprocess_survival_data, create_survival_dataloaders
-    print("  ✓ dataset_survival_classifier.py imported")
+    from survival_classifier.data import load_and_preprocess_survival_data, create_survival_dataloaders
+    print("  ✓ dataset imported")
 except Exception as e:
-    print(f"  ✗ Failed to import dataset_survival_classifier.py: {e}")
+    print(f"  ✗ Failed to import dataset: {e}")
     sys.exit(1)
 
 try:
-    from graph_transformer_survival_classifier import SurvivalGraphTransformer, CoxPHLoss, ConcordanceIndex
-    print("  ✓ graph_transformer_survival_classifier.py imported")
+    from survival_classifier.models.graph_transformer import SurvivalGraphTransformer, CoxPHLoss, ConcordanceIndex
+    print("  ✓ graph_transformer imported")
 except Exception as e:
-    print(f"  ✗ Failed to import graph_transformer_survival_classifier.py: {e}")
+    print(f"  ✗ Failed to import graph_transformer: {e}")
     sys.exit(1)
 
 # Test 2: Load graph prior

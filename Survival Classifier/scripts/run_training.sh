@@ -2,9 +2,9 @@
 # Convenience script to run Graph Transformer training
 
 # Default paths (modify as needed)
-CSV_PATH="../processed_datasets/tcga_pancan_rppa_compiled.csv"
-PRIOR_PATH="../priors/tcga_string_prior.npz"
-OUTPUT_DIR="outputs"
+CSV_PATH="../../processed_datasets/tcga_pancan_rppa_compiled.csv"
+PRIOR_PATH="../../priors/tcga_string_prior.npz"
+OUTPUT_DIR="../outputs"
 DEVICE="cuda"  # Use "cpu" if no GPU available
 
 echo "Graph Transformer Cancer Type Classifier"
