@@ -12,6 +12,9 @@ import numpy as np
 import torch
 import torch.optim as optim
 
+# Add parent directory to path so we can import survival_classifier
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from survival_classifier import config
 from survival_classifier.data import (
     load_graph_prior, get_graph_features_as_tensors,
@@ -21,7 +24,6 @@ from survival_classifier.models import (
     MLPSurvivalModel, VanillaTransformerSurvival, ProteinOnlyMLP,
     CoxPHLoss, ConcordanceIndex, train_survival_epoch, evaluate_survival
 )
-
 
 def train_baseline_model(model_name, model, train_loader, val_loader, test_loader,
                          device, output_dir):

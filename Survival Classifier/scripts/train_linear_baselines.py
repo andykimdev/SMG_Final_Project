@@ -16,6 +16,9 @@ from lifelines import CoxPHFitter
 from lifelines.utils import concordance_index
 import torch
 
+# Add parent directory to path so we can import survival_classifier
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from survival_classifier import config
 from survival_classifier.data import load_graph_prior, load_and_preprocess_survival_data
 

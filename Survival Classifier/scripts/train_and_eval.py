@@ -17,6 +17,9 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Add parent directory to path so we can import survival_classifier
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from survival_classifier import config
 from survival_classifier.data import (
     load_graph_prior, get_graph_features_as_tensors,

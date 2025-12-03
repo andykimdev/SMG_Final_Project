@@ -1,0 +1,118 @@
+{
+  "best_model": "v7_shallow_wide",
+  "best_test_c_index": 0.7798265814781189,
+  "all_results": [
+    {
+      "name": "v7_shallow_wide",
+      "test_c_index": 0.7798265814781189,
+      "val_c_index": 0.8123304843902588,
+      "config": {
+        "name": "v7_shallow_wide",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      }
+    },
+    {
+      "name": "v6_more_heads",
+      "test_c_index": 0.756940484046936,
+      "val_c_index": 0.7902066707611084,
+      "config": {
+        "name": "v6_more_heads",
+        "embedding_dim": 192,
+        "n_layers": 5,
+        "n_heads": 12,
+        "dropout": 0.45,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      }
+    },
+    {
+      "name": "v4_very_wide",
+      "test_c_index": 0.7521440982818604,
+      "val_c_index": 0.7823469042778015,
+      "config": {
+        "name": "v4_very_wide",
+        "embedding_dim": 320,
+        "n_layers": 4,
+        "n_heads": 8,
+        "dropout": 0.5,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.001
+      }
+    },
+    {
+      "name": "v5_heavy_reg",
+      "test_c_index": 0.7511911392211914,
+      "val_c_index": 0.786069929599762,
+      "config": {
+        "name": "v5_heavy_reg",
+        "embedding_dim": 160,
+        "n_layers": 5,
+        "n_heads": 8,
+        "dropout": 0.6,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.001
+      }
+    },
+    {
+      "name": "v3_wider",
+      "test_c_index": 0.7461247444152832,
+      "val_c_index": 0.7895172238349915,
+      "config": {
+        "name": "v3_wider",
+        "embedding_dim": 256,
+        "n_layers": 4,
+        "n_heads": 8,
+        "dropout": 0.45,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      }
+    },
+    {
+      "name": "v1_baseline",
+      "test_c_index": 0.7366749048233032,
+      "val_c_index": 0.7830363512039185,
+      "config": {
+        "name": "v1_baseline",
+        "embedding_dim": 160,
+        "n_layers": 5,
+        "n_heads": 8,
+        "dropout": 0.45,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      }
+    },
+    {
+      "name": "v2_deeper",
+      "test_c_index": 0.7291786074638367,
+      "val_c_index": 0.7580015063285828,
+      "config": {
+        "name": "v2_deeper",
+        "embedding_dim": 128,
+        "n_layers": 8,
+        "n_heads": 8,
+        "dropout": 0.5,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0005
+      }
+    },
+    {
+      "name": "v8_compact",
+      "test_c_index": 0.705450713634491,
+      "val_c_index": 0.774563729763031,
+      "config": {
+        "name": "v8_compact",
+        "embedding_dim": 96,
+        "n_layers": 6,
+        "n_heads": 6,
+        "dropout": 0.45,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      }
+    }
+  ]
+}
