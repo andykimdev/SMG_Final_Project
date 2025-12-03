@@ -1,0 +1,206 @@
+[
+  {
+    "pathway": "PI3K_AKT_MTOR",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 1994,
+        "n_events": 504,
+        "event_rate": 0.25275827482447344,
+        "median_survival_months": 23.90110793
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 289,
+        "n_events": 20,
+        "event_rate": 0.06920415224913495,
+        "median_survival_months": 30.27912023
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 78,
+        "n_events": 8,
+        "event_rate": 0.10256410256410256,
+        "median_survival_months": 21.123056185000003
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 4772,
+        "n_events": 1065,
+        "event_rate": 0.22317686504610226,
+        "median_survival_months": 24.903836669999997
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 0.013866813631863172,
+      "test_statistic": 6.055020610123997
+    }
+  },
+  {
+    "pathway": "MAPK_ERK",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 1934,
+        "n_events": 423,
+        "event_rate": 0.21871768355739402,
+        "median_survival_months": 22.816188314999998
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 46,
+        "n_events": 4,
+        "event_rate": 0.08695652173913043,
+        "median_survival_months": 30.591445569999998
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 12,
+        "n_events": 1,
+        "event_rate": 0.08333333333333333,
+        "median_survival_months": 22.01071769
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 5141,
+        "n_events": 1169,
+        "event_rate": 0.22738766776891656,
+        "median_survival_months": 25.31479107
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 0.29436336184769935,
+      "test_statistic": 1.099556922511161
+    }
+  },
+  {
+    "pathway": "RTK_SIGNALING",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 1521,
+        "n_events": 372,
+        "event_rate": 0.2445759368836292,
+        "median_survival_months": 23.73672617
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 71,
+        "n_events": 8,
+        "event_rate": 0.11267605633802817,
+        "median_survival_months": 19.92306934
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 22,
+        "n_events": 3,
+        "event_rate": 0.13636363636363635,
+        "median_survival_months": 31.8736233
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 5519,
+        "n_events": 1214,
+        "event_rate": 0.21996738539590505,
+        "median_survival_months": 24.9531512
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 0.16191425225415712,
+      "test_statistic": 1.956256437266666
+    }
+  },
+  {
+    "pathway": "CELL_CYCLE",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 2090,
+        "n_events": 611,
+        "event_rate": 0.2923444976076555,
+        "median_survival_months": 22.68468291
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 214,
+        "n_events": 19,
+        "event_rate": 0.08878504672897196,
+        "median_survival_months": 28.109280995
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 89,
+        "n_events": 8,
+        "event_rate": 0.0898876404494382,
+        "median_survival_months": 31.00239997
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 4740,
+        "n_events": 959,
+        "event_rate": 0.20232067510548524,
+        "median_survival_months": 25.21616202
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 7.72922703824041e-06,
+      "test_statistic": 20.00370472579511
+    }
+  },
+  {
+    "pathway": "WNT_BETA_CATENIN",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 2207,
+        "n_events": 467,
+        "event_rate": 0.2115994562754871,
+        "median_survival_months": 24.26274781
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 23,
+        "n_events": 2,
+        "event_rate": 0.08695652173913043,
+        "median_survival_months": 19.2655423
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 3,
+        "n_events": 0,
+        "event_rate": 0.0,
+        "median_survival_months": 21.27099977
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 4900,
+        "n_events": 1128,
+        "event_rate": 0.23020408163265307,
+        "median_survival_months": 24.805207615
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 0.4253531141044613,
+      "test_statistic": 0.6354777919834483
+    }
+  },
+  {
+    "pathway": "APOPTOSIS",
+    "n_patients_with_survival": 7133,
+    "groups": {
+      "HIGH_SIGNAL_NO_MUT": {
+        "n": 1986,
+        "n_events": 387,
+        "event_rate": 0.19486404833836857,
+        "median_survival_months": 24.673702204999998
+      },
+      "LOW_SIGNAL_HAS_MUT": {
+        "n": 13,
+        "n_events": 2,
+        "event_rate": 0.15384615384615385,
+        "median_survival_months": 12.9532827
+      },
+      "HIGH_SIGNAL_HAS_MUT": {
+        "n": 4,
+        "n_events": 0,
+        "event_rate": 0.0,
+        "median_survival_months": 14.21902226
+      },
+      "LOW_SIGNAL_NO_MUT": {
+        "n": 5130,
+        "n_events": 1208,
+        "event_rate": 0.2354775828460039,
+        "median_survival_months": 24.607949505
+      }
+    },
+    "logrank_high_signal_mut_vs_nomut": {
+      "p_value": 0.4011535909184244,
+      "test_statistic": 0.7048656150352642
+    }
+  }
+]

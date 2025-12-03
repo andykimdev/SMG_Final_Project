@@ -1,0 +1,74 @@
+{
+  "PI3K_AKT_MTOR": [
+    "PIK3CA",
+    "PIK3R1",
+    "PIK3R2",
+    "PTEN",
+    "AKT1",
+    "AKT2",
+    "AKT3",
+    "MTOR",
+    "RPTOR",
+    "RICTOR",
+    "TSC1",
+    "TSC2",
+    "RPS6KB1",
+    "EIF4EBP1"
+  ],
+  "MAPK_ERK": [
+    "KRAS",
+    "NRAS",
+    "HRAS",
+    "BRAF",
+    "RAF1",
+    "ARAF",
+    "MAP2K1",
+    "MAP2K2",
+    "MAPK1",
+    "MAPK3",
+    "NF1"
+  ],
+  "RTK_SIGNALING": [
+    "EGFR",
+    "ERBB2",
+    "ERBB3",
+    "ERBB4",
+    "MET",
+    "KIT",
+    "PDGFRA",
+    "FGFR1",
+    "FGFR2",
+    "IGF1R",
+    "INSR"
+  ],
+  "CELL_CYCLE": [
+    "TP53",
+    "RB1",
+    "CDKN1A",
+    "CDKN1B",
+    "CDKN2A",
+    "CDKN2B",
+    "CDK4",
+    "CDK6",
+    "CCND1",
+    "CCNE1"
+  ],
+  "WNT_BETA_CATENIN": [
+    "CTNNB1",
+    "APC",
+    "AXIN1",
+    "AXIN2",
+    "GSK3A",
+    "GSK3B"
+  ],
+  "APOPTOSIS": [
+    "BAX",
+    "BAK1",
+    "BCL2",
+    "BCL2L1",
+    "CASP3",
+    "CASP7",
+    "CASP9",
+    "PARP1"
+  ]
+}
