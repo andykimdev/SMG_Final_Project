@@ -1,0 +1,477 @@
+Logging to: outputs/logs_20251202_005825.txt
+================================================================================
+Graph Transformer Cancer Type Classifier
+================================================================================
+
+Device: cpu
+Output directory: outputs
+
+================================================================================
+Loading Graph Prior
+================================================================================
+Loaded STRING prior: 198 proteins, 1184 edges
+Computed diffusion kernel and 16 positional encodings
+
+================================================================================
+Loading and Preprocessing Data
+================================================================================
+Loading data from ../processed_datasets/tcga_pancan_rppa_compiled.csv...
+Loaded 7523 samples
+Found 198 protein columns in CSV
+Filtering samples: 7523/7523 have ≤50.0% missing values
+After filtering: 7523 samples across 32 cancer types
+Cancer type distribution:
+CANCER_TYPE_ACRONYM
+ACC      45
+BLCA    343
+BRCA    876
+CESC    166
+CHOL     30
+COAD    346
+DLBC     33
+ESCA    125
+GBM     231
+HNSC    211
+KICH     62
+KIRC    455
+KIRP    209
+LGG     428
+LIHC    179
+LUAD    360
+LUSC    317
+MESO     63
+OV      414
+PAAD    122
+PCPG     79
+PRAD    350
+READ    118
+SARC    218
+SKCM    329
+STAD    354
+TGCT    118
+THCA    369
+THYM     90
+UCEC    423
+UCS      48
+UVM      12
+Name: count, dtype: int64
+
+Data splits:
+  Train: 6395 samples (85.0%)
+  Val:   751 samples (10.0%)
+  Test:  377 samples (5.0%)
+
+Handling missing values...
+  train: 38694 missing values, imputing with train means
+  val: 4503 missing values, imputing with train means
+  test: 2256 missing values, imputing with train means
+
+Standardizing protein features...
+  Mean: [-0.72304177  0.3114389   0.21158511  0.79045542  1.54661482] ... (first 5)
+  Std:  [0.27367524 0.55451515 0.34961754 0.76169914 0.6686727 ] ... (first 5)
+
+Creating DataLoaders...
+
+================================================================================
+Initializing Model
+================================================================================
+Model parameters: 831,592
+Number of proteins: 198
+Number of classes: 32
+Classes: ['ACC', 'BLCA', 'BRCA', 'CESC', 'CHOL', 'COAD', 'DLBC', 'ESCA', 'GBM', 'HNSC', 'KICH', 'KIRC', 'KIRP', 'LGG', 'LIHC', 'LUAD', 'LUSC', 'MESO', 'OV', 'PAAD', 'PCPG', 'PRAD', 'READ', 'SARC', 'SKCM', 'STAD', 'TGCT', 'THCA', 'THYM', 'UCEC', 'UCS', 'UVM']
+
+================================================================================
+Training
+================================================================================
+
+Epoch 1/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.2868 | Train Acc: 0.0899
+Val Loss:   3.0622 | Val Acc:   0.1411 | F1 (macro): 0.0488
+✓ Saved best model (val_loss: 3.0622)
+
+Epoch 2/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.7580 | Train Acc: 0.2421
+Val Loss:   2.2702 | Val Acc:   0.3702 | F1 (macro): 0.1913
+✓ Saved best model (val_loss: 2.2702)
+
+Epoch 3/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.1846 | Train Acc: 0.4041
+Val Loss:   1.8795 | Val Acc:   0.4727 | F1 (macro): 0.2808
+✓ Saved best model (val_loss: 1.8795)
+
+Epoch 4/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.8159 | Train Acc: 0.5009
+Val Loss:   1.6776 | Val Acc:   0.5459 | F1 (macro): 0.3610
+✓ Saved best model (val_loss: 1.6776)
+
+Epoch 5/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.5794 | Train Acc: 0.5604
+Val Loss:   1.5629 | Val Acc:   0.5513 | F1 (macro): 0.3837
+✓ Saved best model (val_loss: 1.5629)
+
+Epoch 6/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.3650 | Train Acc: 0.6125
+Val Loss:   1.2822 | Val Acc:   0.6338 | F1 (macro): 0.4744
+✓ Saved best model (val_loss: 1.2822)
+
+Epoch 7/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.2086 | Train Acc: 0.6539
+Val Loss:   1.1039 | Val Acc:   0.6764 | F1 (macro): 0.5266
+✓ Saved best model (val_loss: 1.1039)
+
+Epoch 8/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.1151 | Train Acc: 0.6785
+Val Loss:   1.0180 | Val Acc:   0.7044 | F1 (macro): 0.5527
+✓ Saved best model (val_loss: 1.0180)
+
+Epoch 9/100
+--------------------------------------------------------------------------------
+
+Train Loss: 1.0041 | Train Acc: 0.7110
+Val Loss:   1.0671 | Val Acc:   0.7017 | F1 (macro): 0.5711
+
+Epoch 10/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.9117 | Train Acc: 0.7339
+Val Loss:   0.9215 | Val Acc:   0.7430 | F1 (macro): 0.5906
+✓ Saved best model (val_loss: 0.9215)
+
+Epoch 11/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.8571 | Train Acc: 0.7525
+Val Loss:   0.8724 | Val Acc:   0.7523 | F1 (macro): 0.6150
+✓ Saved best model (val_loss: 0.8724)
+
+Epoch 12/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.7823 | Train Acc: 0.7697
+Val Loss:   0.7568 | Val Acc:   0.7750 | F1 (macro): 0.6487
+✓ Saved best model (val_loss: 0.7568)
+
+Epoch 13/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.7274 | Train Acc: 0.7886
+Val Loss:   0.7497 | Val Acc:   0.7696 | F1 (macro): 0.6267
+✓ Saved best model (val_loss: 0.7497)
+
+Epoch 14/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.6903 | Train Acc: 0.7955
+Val Loss:   0.7383 | Val Acc:   0.7656 | F1 (macro): 0.6171
+✓ Saved best model (val_loss: 0.7383)
+
+Epoch 15/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.6337 | Train Acc: 0.8152
+Val Loss:   0.7982 | Val Acc:   0.7590 | F1 (macro): 0.6284
+
+Epoch 16/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.6055 | Train Acc: 0.8170
+Val Loss:   0.6556 | Val Acc:   0.7909 | F1 (macro): 0.6639
+✓ Saved best model (val_loss: 0.6556)
+
+Epoch 17/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.5528 | Train Acc: 0.8363
+Val Loss:   0.6023 | Val Acc:   0.8242 | F1 (macro): 0.7207
+✓ Saved best model (val_loss: 0.6023)
+
+Epoch 18/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.5315 | Train Acc: 0.8430
+Val Loss:   0.6206 | Val Acc:   0.8109 | F1 (macro): 0.6979
+
+Epoch 19/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.5017 | Train Acc: 0.8474
+Val Loss:   0.6097 | Val Acc:   0.8149 | F1 (macro): 0.7176
+
+Epoch 20/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.4757 | Train Acc: 0.8574
+Val Loss:   0.5578 | Val Acc:   0.8322 | F1 (macro): 0.7289
+✓ Saved best model (val_loss: 0.5578)
+
+Epoch 21/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.4621 | Train Acc: 0.8591
+Val Loss:   0.5492 | Val Acc:   0.8202 | F1 (macro): 0.7155
+✓ Saved best model (val_loss: 0.5492)
+
+Epoch 22/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.4215 | Train Acc: 0.8716
+Val Loss:   0.5799 | Val Acc:   0.8349 | F1 (macro): 0.7519
+
+Epoch 23/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.4023 | Train Acc: 0.8732
+Val Loss:   0.5386 | Val Acc:   0.8389 | F1 (macro): 0.7454
+✓ Saved best model (val_loss: 0.5386)
+
+Epoch 24/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.3809 | Train Acc: 0.8813
+Val Loss:   0.5462 | Val Acc:   0.8322 | F1 (macro): 0.7337
+
+Epoch 25/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.3477 | Train Acc: 0.8896
+Val Loss:   0.4982 | Val Acc:   0.8575 | F1 (macro): 0.7682
+✓ Saved best model (val_loss: 0.4982)
+
+Epoch 26/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.3404 | Train Acc: 0.8959
+Val Loss:   0.4786 | Val Acc:   0.8535 | F1 (macro): 0.7532
+✓ Saved best model (val_loss: 0.4786)
+
+Epoch 27/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.3351 | Train Acc: 0.8946
+Val Loss:   0.5492 | Val Acc:   0.8375 | F1 (macro): 0.7321
+
+Epoch 28/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2967 | Train Acc: 0.9040
+Val Loss:   0.5208 | Val Acc:   0.8429 | F1 (macro): 0.7661
+
+Epoch 29/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2841 | Train Acc: 0.9098
+Val Loss:   0.4988 | Val Acc:   0.8575 | F1 (macro): 0.7727
+
+Epoch 30/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2761 | Train Acc: 0.9112
+Val Loss:   0.5285 | Val Acc:   0.8522 | F1 (macro): 0.7702
+
+Epoch 31/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2509 | Train Acc: 0.9184
+Val Loss:   0.5282 | Val Acc:   0.8549 | F1 (macro): 0.7770
+
+Epoch 32/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2490 | Train Acc: 0.9190
+Val Loss:   0.5843 | Val Acc:   0.8256 | F1 (macro): 0.7335
+
+Epoch 33/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.2078 | Train Acc: 0.9342
+Val Loss:   0.4646 | Val Acc:   0.8708 | F1 (macro): 0.7782
+✓ Saved best model (val_loss: 0.4646)
+
+Epoch 34/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1832 | Train Acc: 0.9403
+Val Loss:   0.4940 | Val Acc:   0.8628 | F1 (macro): 0.7578
+
+Epoch 35/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1818 | Train Acc: 0.9395
+Val Loss:   0.4456 | Val Acc:   0.8655 | F1 (macro): 0.7760
+✓ Saved best model (val_loss: 0.4456)
+
+Epoch 36/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1628 | Train Acc: 0.9468
+Val Loss:   0.5479 | Val Acc:   0.8495 | F1 (macro): 0.7862
+
+Epoch 37/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1578 | Train Acc: 0.9465
+Val Loss:   0.5129 | Val Acc:   0.8668 | F1 (macro): 0.7854
+
+Epoch 38/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1583 | Train Acc: 0.9489
+Val Loss:   0.5063 | Val Acc:   0.8708 | F1 (macro): 0.7917
+
+Epoch 39/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1421 | Train Acc: 0.9532
+Val Loss:   0.4987 | Val Acc:   0.8615 | F1 (macro): 0.7603
+
+Epoch 40/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1408 | Train Acc: 0.9534
+Val Loss:   0.4611 | Val Acc:   0.8842 | F1 (macro): 0.7995
+
+Epoch 41/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1381 | Train Acc: 0.9551
+Val Loss:   0.4885 | Val Acc:   0.8575 | F1 (macro): 0.7651
+
+Epoch 42/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1118 | Train Acc: 0.9645
+Val Loss:   0.4526 | Val Acc:   0.8762 | F1 (macro): 0.7949
+
+Epoch 43/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1125 | Train Acc: 0.9648
+Val Loss:   0.4649 | Val Acc:   0.8735 | F1 (macro): 0.7902
+
+Epoch 44/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1007 | Train Acc: 0.9681
+Val Loss:   0.4867 | Val Acc:   0.8722 | F1 (macro): 0.7835
+
+Epoch 45/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.1006 | Train Acc: 0.9684
+Val Loss:   0.4761 | Val Acc:   0.8708 | F1 (macro): 0.7838
+
+Epoch 46/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.0985 | Train Acc: 0.9703
+Val Loss:   0.4573 | Val Acc:   0.8708 | F1 (macro): 0.7857
+
+Epoch 47/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.0945 | Train Acc: 0.9686
+Val Loss:   0.4760 | Val Acc:   0.8762 | F1 (macro): 0.7846
+
+Epoch 48/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.0861 | Train Acc: 0.9748
+Val Loss:   0.4607 | Val Acc:   0.8802 | F1 (macro): 0.7922
+
+Epoch 49/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.0777 | Train Acc: 0.9769
+Val Loss:   0.4675 | Val Acc:   0.8722 | F1 (macro): 0.7852
+
+Epoch 50/100
+--------------------------------------------------------------------------------
+
+Train Loss: 0.0806 | Train Acc: 0.9747
+Val Loss:   0.4612 | Val Acc:   0.8722 | F1 (macro): 0.7763
+
+Early stopping triggered after 50 epochs
+
+Training history saved to outputs/results/training_history.json
+Training curves saved to outputs/plots/training_curves.png
+
+================================================================================
+Testing
+================================================================================
+Loaded best model from epoch 35
+
+Test Set Results:
+  Accuracy:    0.8833
+  F1 (macro):  0.8364
+  F1 (weighted): 0.8777
+
+Per-Class Metrics:
+              precision    recall  f1-score   support
+
+         ACC     1.0000    1.0000    1.0000         2
+        BLCA     0.7000    0.8235    0.7568        17
+        BRCA     0.9524    0.9091    0.9302        44
+        CESC     0.7143    0.6250    0.6667         8
+        CHOL     0.0000    0.0000    0.0000         2
+        COAD     0.7273    0.9412    0.8205        17
+        DLBC     1.0000    0.5000    0.6667         2
+        ESCA     0.5556    0.8333    0.6667         6
+         GBM     1.0000    0.9091    0.9524        11
+        HNSC     1.0000    1.0000    1.0000        11
+        KICH     1.0000    1.0000    1.0000         3
+        KIRC     1.0000    0.9130    0.9545        23
+        KIRP     0.9091    1.0000    0.9524        10
+         LGG     0.9565    1.0000    0.9778        22
+        LIHC     1.0000    0.7778    0.8750         9
+        LUAD     0.6842    0.7222    0.7027        18
+        LUSC     0.7778    0.8750    0.8235        16
+        MESO     1.0000    0.6667    0.8000         3
+          OV     0.9524    0.9524    0.9524        21
+        PAAD     1.0000    0.8333    0.9091         6
+        PCPG     1.0000    1.0000    1.0000         4
+        PRAD     1.0000    1.0000    1.0000        18
+        READ     0.0000    0.0000    0.0000         6
+        SARC     0.9000    0.8182    0.8571        11
+        SKCM     0.8824    0.9375    0.9091        16
+        STAD     0.9375    0.8333    0.8824        18
+        TGCT     0.8571    1.0000    0.9231         6
+        THCA     0.9474    1.0000    0.9730        18
+        THYM     0.8333    1.0000    0.9091         5
+        UCEC     0.9048    0.9048    0.9048        21
+         UCS     1.0000    1.0000    1.0000         2
+         UVM     1.0000    1.0000    1.0000         1
+
+    accuracy                         0.8833       377
+   macro avg     0.8497    0.8367    0.8364       377
+weighted avg     0.8790    0.8833    0.8777       377
+
+
+Classification report saved to outputs/results/classification_report.txt
+Confusion matrix saved to outputs/plots/confusion_matrix.png
+Test results saved to outputs/results/test_results.json
+
+================================================================================
+Training Complete!
+================================================================================
+
+All outputs saved to: outputs
+  - Logs: outputs/logs_20251202_005825.txt
+  - Checkpoints: outputs/checkpoints
+  - Results: outputs/results
+  - Plots: outputs/plots

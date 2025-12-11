@@ -1,0 +1,204 @@
+================================================================================
+Graph-Aware Protein Expression Diffusion Model
+================================================================================
+
+Device: mps
+Output directory: outputs
+Logging to: outputs/logs_20251202_001113.txt
+
+================================================================================
+Loading Graph Prior
+================================================================================
+Loaded STRING prior: 198 proteins, 1184 edges
+Computed diffusion kernel and 16 positional encodings
+
+================================================================================
+Loading and Preprocessing Data
+================================================================================
+Loading data from ../processed_datasets/tcga_pancan_rppa_compiled.csv...
+Loaded 7523 samples
+Filtering samples: 7523/7523 have ≤50.0% missing
+After filtering: 7523 samples across 32 cancer types
+Cancer type distribution:
+CANCER_TYPE_ACRONYM
+ACC      45
+BLCA    343
+BRCA    876
+CESC    166
+CHOL     30
+COAD    346
+DLBC     33
+ESCA    125
+GBM     231
+HNSC    211
+KICH     62
+KIRC    455
+KIRP    209
+LGG     428
+LIHC    179
+LUAD    360
+LUSC    317
+MESO     63
+OV      414
+PAAD    122
+PCPG     79
+PRAD    350
+READ    118
+SARC    218
+SKCM    329
+STAD    354
+TGCT    118
+THCA    369
+THYM     90
+UCEC    423
+UCS      48
+UVM      12
+Name: count, dtype: int64
+
+Extracting patient context features...
+  Stage cleaning: 4909/7523 valid AJCC stages
+  Stage categories: ['STAGE 0', 'STAGE I', 'STAGE I/II (NOS)', 'STAGE IA', 'STAGE IB', 'STAGE II', 'STAGE IIA', 'STAGE IIB', 'STAGE IIC', 'STAGE III', 'STAGE IIIA', 'STAGE IIIB', 'STAGE IIIC', 'STAGE IS', 'STAGE IV', 'STAGE IVA', 'STAGE IVB', 'STAGE IVC', 'STAGE X', 'Unknown']
+
+Extracting survival outcomes...
+  OS_STATUS: 2329 events, 5170 censored, 24 unknown
+  PFS_STATUS: 2628 events, 4871 censored, 24 unknown
+  DSS_STATUS: 1610 events, 5623 censored, 290 unknown
+  DFS_STATUS: 788 events, 3083 censored, 3652 unknown
+
+  Cancer types: 32 categories
+  Stages: 20 categories
+  Age range: 14.0 - 90.0 years
+  Sexes: 3 categories
+  Molecular features: 4
+  Survival outcomes: 4 (OS, PFS, DSS, DFS)
+
+Data splits:
+  Train: 6395 samples (85.0%)
+  Val:   751 samples (10.0%)
+  Test:  377 samples (5.0%)
+
+Processing protein expression...
+  Mean: [-0.72304177  0.3114389   0.21158511  0.79045542  1.54661482] ... (first 5)
+  Std:  [0.27367524 0.55451515 0.34961754 0.76169914 0.6686727 ] ... (first 5)
+
+Creating DataLoaders...
+
+================================================================================
+Initializing Model
+================================================================================
+
+Model Summary:
+  Architecture: d_model=256, layers=6, heads=8
+  Graph prior: STRING PPI network (198 proteins, 11425 edges)
+  Total parameters: 5,603,653
+  Trainable parameters: 5,603,653
+
+================================================================================
+Initializing Diffusion Process
+================================================================================
+Diffusion timesteps: 1000
+Noise schedule: cosine
+Loss type: mse
+
+Using EMA with decay=0.9999
+
+================================================================================
+Training
+================================================================================
+
+Epoch 1/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.588857
+Val Loss:   0.494918
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.494918, improvement: inf)
+
+Epoch 2/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.483944
+Val Loss:   0.519250
+Learning Rate: 1.00e-04
+No improvement for 1 epochs
+
+Epoch 3/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.479949
+Val Loss:   0.464111
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.464111, improvement: 0.030806)
+
+Epoch 4/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.479526
+Val Loss:   0.469465
+Learning Rate: 1.00e-04
+No improvement for 1 epochs
+
+Epoch 5/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.482468
+Val Loss:   0.455001
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.455001, improvement: 0.009110)
+
+Epoch 6/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.466806
+Val Loss:   0.471560
+Learning Rate: 1.00e-04
+No improvement for 1 epochs
+
+Epoch 7/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.468172
+Val Loss:   0.444132
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.444132, improvement: 0.010869)
+
+Epoch 8/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.461141
+Val Loss:   0.434104
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.434104, improvement: 0.010028)
+
+Epoch 9/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.445613
+Val Loss:   0.435649
+Learning Rate: 1.00e-04
+No improvement for 1 epochs
+
+Epoch 10/10
+--------------------------------------------------------------------------------
+
+Train Loss: 0.444962
+Val Loss:   0.416464
+Learning Rate: 1.00e-04
+✓ Saved best model (val_loss: 0.416464, improvement: 0.017640)
+Saved checkpoint: outputs/checkpoints/checkpoint_epoch10.pt
+
+Training history saved to outputs/results/training_history.json
+Training curves saved to outputs/plots/training_curves.png
+
+================================================================================
+Training Complete!
+================================================================================
+
+Best validation loss: 0.416464
+Total epochs: 10
+
+All outputs saved to: outputs
+  - Logs: outputs/logs_20251202_001113.txt
+  - Checkpoints: outputs/checkpoints
+  - Plots: outputs/plots
+  - Results: outputs/results
