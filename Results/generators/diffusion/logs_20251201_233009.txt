@@ -1,0 +1,127 @@
+================================================================================
+Graph-Aware Protein Expression Diffusion Model
+================================================================================
+
+Device: mps
+Output directory: outputs
+Logging to: outputs/logs_20251201_233009.txt
+
+================================================================================
+Loading Graph Prior
+================================================================================
+Loaded STRING prior: 198 proteins, 1184 edges
+Computed diffusion kernel and 16 positional encodings
+
+================================================================================
+Loading and Preprocessing Data
+================================================================================
+Loading data from ../processed_datasets/tcga_pancan_rppa_compiled.csv...
+Loaded 7523 samples
+Filtering samples: 7523/7523 have ≤50.0% missing
+After filtering: 7523 samples across 32 cancer types
+Cancer type distribution:
+CANCER_TYPE_ACRONYM
+ACC      45
+BLCA    343
+BRCA    876
+CESC    166
+CHOL     30
+COAD    346
+DLBC     33
+ESCA    125
+GBM     231
+HNSC    211
+KICH     62
+KIRC    455
+KIRP    209
+LGG     428
+LIHC    179
+LUAD    360
+LUSC    317
+MESO     63
+OV      414
+PAAD    122
+PCPG     79
+PRAD    350
+READ    118
+SARC    218
+SKCM    329
+STAD    354
+TGCT    118
+THCA    369
+THYM     90
+UCEC    423
+UCS      48
+UVM      12
+Name: count, dtype: int64
+
+Extracting patient context features...
+  Stage cleaning: 4909/7523 valid AJCC stages
+  Stage categories: ['STAGE 0', 'STAGE I', 'STAGE I/II (NOS)', 'STAGE IA', 'STAGE IB', 'STAGE II', 'STAGE IIA', 'STAGE IIB', 'STAGE IIC', 'STAGE III', 'STAGE IIIA', 'STAGE IIIB', 'STAGE IIIC', 'STAGE IS', 'STAGE IV', 'STAGE IVA', 'STAGE IVB', 'STAGE IVC', 'STAGE X', 'Unknown']
+
+Extracting survival outcomes...
+  OS_STATUS: 2329 events, 5170 censored, 24 unknown
+  PFS_STATUS: 2628 events, 4871 censored, 24 unknown
+  DSS_STATUS: 7233 events, 0 censored, 290 unknown
+  DFS_STATUS: 788 events, 3083 censored, 3652 unknown
+
+  Cancer types: 32 categories
+  Stages: 20 categories
+  Age range: 14.0 - 90.0 years
+  Sexes: 3 categories
+  Molecular features: 4
+  Survival outcomes: 4 (OS, PFS, DSS, DFS)
+
+Data splits:
+  Train: 6395 samples (85.0%)
+  Val:   751 samples (10.0%)
+  Test:  377 samples (5.0%)
+
+Processing protein expression...
+  Mean: [-0.72304177  0.3114389   0.21158511  0.79045542  1.54661482] ... (first 5)
+  Std:  [0.27367524 0.55451515 0.34961754 0.76169914 0.6686727 ] ... (first 5)
+
+Creating DataLoaders...
+
+================================================================================
+Initializing Model
+================================================================================
+Loading classifier weights from: /Users/leophelan/Code/projects/graph_transformer_proteomics/Generator/../Classifier/outputs/checkpoints/best_model.pt
+Transferred 3 parameters from classifier:
+  - Protein embeddings: ✗ (dim mismatch)
+  - Graph PE projection: ✗ (dim mismatch)
+  - Transformer layers: 0 parameters
+
+Skipped 71 parameters due to dimension mismatch:
+  - value_projection.weight: torch.Size([128, 1]) vs torch.Size([256, 1])
+  - value_projection.bias: torch.Size([128]) vs torch.Size([256])
+  - protein_embedding.weight: torch.Size([198, 128]) vs torch.Size([198, 256])
+  - pe_projection.weight: torch.Size([128, 16]) vs torch.Size([256, 16])
+  - pe_projection.bias: torch.Size([128]) vs torch.Size([256])
+  ... and 66 more
+
+New parameters (randomly initialized):
+  - Context encoder: 184,636
+  - Time embedding: 525,568
+  - Noise head: 33,025
+
+Model Summary:
+  Architecture: d_model=256, layers=6, heads=8
+  Total parameters: 5,603,653
+  Trainable parameters: 5,603,653
+
+================================================================================
+Initializing Diffusion Process
+================================================================================
+Diffusion timesteps: 1000
+Noise schedule: cosine
+Loss type: mse
+
+Using EMA with decay=0.9999
+
+================================================================================
+Training
+================================================================================
+
+Epoch 1/200
+--------------------------------------------------------------------------------
