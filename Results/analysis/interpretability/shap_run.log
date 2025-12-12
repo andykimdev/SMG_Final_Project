@@ -1,0 +1,2 @@
+/Users/leophelan/miniforge3/lib/python3.12/site-packages/shap/explainers/_deep/deep_pytorch.py:255: UserWarning: unrecognized nn.Module: LayerNorm
+  warnings.warn(f"unrecognized nn.Module: {module_type}")

@@ -1,0 +1,44 @@
+======================================================================
+PCA-Logistic Regression Analysis
+======================================================================
+
+Model Performance:
+  Train accuracy: 97.64%
+  Test accuracy: 93.12%
+  PCA variance explained: 78.2%
+
+Protein Importance:
+  Mean: 1.012918
+  Median: 1.007852
+  Std: 0.164831
+  Min: 0.618584
+  Max: 1.497922
+
+Concentration of importance:
+  Top 87 proteins (43.9%) explain 50% of importance
+  Top 149 proteins (75.3%) explain 80% of importance
+  Top 172 proteins (86.9%) explain 90% of importance
+
+Top 20 Most Important Proteins:
+   1. COPS5|JAB1            (importance = 1.497922)
+   2. ERBB3|HER3            (importance = 1.441188)
+   3. SRC|Src               (importance = 1.369662)
+   4. ARID1A|ARID1A         (importance = 1.333486)
+   5. CASP3|Caspase-3       (importance = 1.327838)
+   6. RAD50|Rad50           (importance = 1.317720)
+   7. NKX2-1|TTF1           (importance = 1.312726)
+   8. CTNNA1|alpha-Catenin  (importance = 1.307583)
+   9. CASP9|Caspase-9       (importance = 1.307130)
+  10. PRKAA1|AMPK_pT172     (importance = 1.279832)
+  11. SQSTM1|p62-LCK-ligand  (importance = 1.279209)
+  12. XBP1|XBP1             (importance = 1.275053)
+  13. CDH3|P-Cadherin       (importance = 1.262907)
+  14. ERBB2|HER2_pY1248     (importance = 1.253379)
+  15. YBX1|YB-1             (importance = 1.249476)
+  16. EIF4EBP1|4E-BP1_pS65  (importance = 1.248015)
+  17. CDK1|CDK1             (importance = 1.244161)
+  18. KIT|c-Kit             (importance = 1.242824)
+  19. ERBB2|HER2            (importance = 1.240917)
+  20. BCL2L1|Bcl-xL         (importance = 1.240778)
+
+======================================================================

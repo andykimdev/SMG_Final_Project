@@ -1,0 +1,23 @@
+Top 20 Most Important Proteins (PCA-Logistic)
+==================================================
+
+ 1. COPS5|JAB1
+ 2. ERBB3|HER3
+ 3. SRC|Src
+ 4. ARID1A|ARID1A
+ 5. CASP3|Caspase-3
+ 6. RAD50|Rad50
+ 7. NKX2-1|TTF1
+ 8. CTNNA1|alpha-Catenin
+ 9. CASP9|Caspase-9
+10. PRKAA1|AMPK_pT172
+11. SQSTM1|p62-LCK-ligand
+12. XBP1|XBP1
+13. CDH3|P-Cadherin
+14. ERBB2|HER2_pY1248
+15. YBX1|YB-1
+16. EIF4EBP1|4E-BP1_pS65
+17. CDK1|CDK1
+18. KIT|c-Kit
+19. ERBB2|HER2
+20. BCL2L1|Bcl-xL
