@@ -1,0 +1,123 @@
+{
+  "all_results": [
+    {
+      "config_name": "baseline",
+      "config": {
+        "name": "baseline",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v1_deeper",
+      "config": {
+        "name": "v1_deeper",
+        "embedding_dim": 256,
+        "n_layers": 4,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v2_wider",
+      "config": {
+        "name": "v2_wider",
+        "embedding_dim": 320,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v3_higher_dropout",
+      "config": {
+        "name": "v3_higher_dropout",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.5,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v4_lower_lr",
+      "config": {
+        "name": "v4_lower_lr",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v5_higher_wd",
+      "config": {
+        "name": "v5_higher_wd",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 8,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.001
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v6_more_heads",
+      "config": {
+        "name": "v6_more_heads",
+        "embedding_dim": 256,
+        "n_layers": 3,
+        "n_heads": 12,
+        "dropout": 0.4,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v7_shallow_wide",
+      "config": {
+        "name": "v7_shallow_wide",
+        "embedding_dim": 384,
+        "n_layers": 2,
+        "n_heads": 8,
+        "dropout": 0.45,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0005
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    },
+    {
+      "config_name": "v8_combo",
+      "config": {
+        "name": "v8_combo",
+        "embedding_dim": 320,
+        "n_layers": 3,
+        "n_heads": 10,
+        "dropout": 0.45,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.0007
+      },
+      "error": "SurvivalGraphTransformer.__init__() got an unexpected keyword argument 'name'"
+    }
+  ],
+  "best_config": null,
+  "timestamp": "20251207_201055"
+}

@@ -1,0 +1,849 @@
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:161: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  numeric_data[col].fillna(median_val, inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:161: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  numeric_data[col].fillna(median_val, inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:161: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  numeric_data[col].fillna(median_val, inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/Blinded Survival Classifier/blinded_survival_classifier/data/dataset.py:171: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  categorical_data[col].fillna('Unknown', inplace=True)
+/Users/andykim/Documents/2025 Fall/SMG/Project/SMG_Final_Project/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+================================================================================
+BLINDED GRAPH TRANSFORMER HYPERPARAMETER OPTIMIZATION
+================================================================================
+Features: Protein expression, Age, Sex, Race, Genetic ancestry
+Excluded: Cancer type, tumor stage, genomic features
+Device: mps
+Output: ../outputs/optimization
+Start time: 2025-12-03 16:54:42
+
+Loading data...
+Loaded STRING prior: 198 proteins, 1184 edges
+Computed diffusion kernel and 16 positional encodings
+Loading data from ../../processed_datasets/tcga_pancan_rppa_compiled.csv...
+Loaded 7523 samples with 223 columns
+
+BLINDED Column Identification (IHC-available features only):
+  Identifiers: 2
+  Proteins (IHC): 198
+  Clinical (numeric): 1 - ['AGE']
+  Clinical (categorical): 3 - ['SEX', 'RACE', 'GENETIC_ANCESTRY_LABEL']
+  Genomic: 0 (ALWAYS 0 for blinded model)
+  Survival (targets): 9
+  Excluded (cancer type, stage, genomic): 11
+
+================================================================================
+Filtering Samples
+================================================================================
+Protein filter: 7523/7523 samples have ≤50.0% missing proteins
+Survival filter: 7201/7523 samples have valid DSS data
+Combined: 7201/7523 samples pass all filters
+
+================================================================================
+Processing Survival Labels
+================================================================================
+Survival statistics:
+  Events (deaths): 1601 (22.2%)
+  Censored: 5600 (77.8%)
+  Median survival time: 24.3 months
+  Time range: 0.0 - 369.9 months
+
+Survival by cancer type:
+  ACC: n=45, events=13 (28.9%), median_time=44.4 months
+  BLCA: n=328, events=104 (31.7%), median_time=17.7 months
+  BRCA: n=857, events=66 (7.7%), median_time=25.9 months
+  CESC: n=163, events=19 (11.7%), median_time=20.4 months
+  CHOL: n=29, events=13 (44.8%), median_time=21.0 months
+  COAD: n=330, events=45 (13.6%), median_time=21.1 months
+  DLBC: n=33, events=2 (6.1%), median_time=24.6 months
+  ESCA: n=123, events=24 (19.5%), median_time=12.9 months
+  GBM: n=215, events=152 (70.7%), median_time=12.1 months
+  HNSC: n=194, events=73 (37.6%), median_time=23.4 months
+  KICH: n=62, events=6 (9.7%), median_time=85.7 months
+  KIRC: n=446, events=102 (22.9%), median_time=38.7 months
+  KIRP: n=206, events=22 (10.7%), median_time=25.0 months
+  LGG: n=420, events=89 (21.2%), median_time=20.3 months
+  LIHC: n=172, events=53 (30.8%), median_time=17.8 months
+  LUAD: n=319, events=79 (24.8%), median_time=23.0 months
+  LUSC: n=285, events=60 (21.1%), median_time=23.0 months
+  MESO: n=46, events=34 (73.9%), median_time=17.0 months
+  OV: n=385, events=210 (54.5%), median_time=33.1 months
+  PAAD: n=115, events=56 (48.7%), median_time=15.3 months
+  PCPG: n=79, events=1 (1.3%), median_time=26.9 months
+  PRAD: n=349, events=4 (1.1%), median_time=32.3 months
+  READ: n=111, events=12 (10.8%), median_time=20.0 months
+  SARC: n=213, events=66 (31.0%), median_time=30.3 months
+  SKCM: n=315, events=132 (41.9%), median_time=33.7 months
+  STAD: n=326, events=75 (23.0%), median_time=14.1 months
+  TGCT: n=104, events=3 (2.9%), median_time=45.3 months
+  THCA: n=363, events=7 (1.9%), median_time=32.3 months
+  THYM: n=89, events=3 (3.4%), median_time=34.7 months
+  UCEC: n=421, events=46 (10.9%), median_time=28.9 months
+  UCS: n=46, events=28 (60.9%), median_time=20.0 months
+  UVM: n=12, events=2 (16.7%), median_time=23.5 months
+
+================================================================================
+Splitting Data
+================================================================================
+Data splits:
+  Train: 5761 samples (80.0%), 1281 events
+  Val:   720 samples (10.0%), 160 events
+  Test:  720 samples (10.0%), 160 events
+
+================================================================================
+Processing Protein Expression Data
+================================================================================
+Protein features: 198
+
+================================================================================
+Processing Clinical Features
+================================================================================
+Clinical features: 4
+
+================================================================================
+Preprocessing Complete
+================================================================================
+Total features per sample:
+  Proteins: 198
+  Clinical: 4
+  Genomic:  0
+  TOTAL:    202
+
+Survival task: Predict DSS_STATUS and DSS_MONTHS
+  Event rate: 22.2%
+  Median follow-up: 24.3 months
+
+Testing 8 configurations
+
+################################################################################
+# Configuration 1/8
+################################################################################
+
+================================================================================
+Training: v1_baseline
+================================================================================
+Config: {
+  "name": "v1_baseline",
+  "embedding_dim": 160,
+  "n_layers": 5,
+  "n_heads": 8,
+  "dropout": 0.45,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 1,647,529
+Epoch   1: Train Loss=3.6970 | Val Loss=3.3461, C-idx=0.6117
+  ✓ New best validation C-index: 0.6117
+Epoch   2: Train Loss=3.4313 | Val Loss=3.3483, C-idx=0.6113
+Epoch   3: Train Loss=3.4025 | Val Loss=3.3135, C-idx=0.6292
+  ✓ New best validation C-index: 0.6292
+Epoch   4: Train Loss=3.3565 | Val Loss=3.2714, C-idx=0.6401
+  ✓ New best validation C-index: 0.6401
+Epoch   5: Train Loss=3.3379 | Val Loss=3.2936, C-idx=0.6487
+  ✓ New best validation C-index: 0.6487
+Epoch   6: Train Loss=3.3419 | Val Loss=3.2497, C-idx=0.6496
+  ✓ New best validation C-index: 0.6496
+Epoch   7: Train Loss=3.3403 | Val Loss=3.2664, C-idx=0.6454
+Epoch   8: Train Loss=3.3347 | Val Loss=3.2629, C-idx=0.6455
+Epoch   9: Train Loss=3.3191 | Val Loss=3.2298, C-idx=0.6576
+  ✓ New best validation C-index: 0.6576
+Epoch  10: Train Loss=3.2979 | Val Loss=3.2828, C-idx=0.6542
+Epoch  11: Train Loss=3.2564 | Val Loss=3.2380, C-idx=0.6811
+  ✓ New best validation C-index: 0.6811
+Epoch  12: Train Loss=3.1769 | Val Loss=3.2095, C-idx=0.6965
+  ✓ New best validation C-index: 0.6965
+Epoch  13: Train Loss=3.1397 | Val Loss=3.1445, C-idx=0.7230
+  ✓ New best validation C-index: 0.7230
+Epoch  14: Train Loss=3.0950 | Val Loss=3.0804, C-idx=0.7390
+  ✓ New best validation C-index: 0.7390
+Epoch  15: Train Loss=3.0516 | Val Loss=3.0956, C-idx=0.7354
+Epoch  16: Train Loss=3.0173 | Val Loss=3.0515, C-idx=0.7466
+  ✓ New best validation C-index: 0.7466
+Epoch  17: Train Loss=3.0100 | Val Loss=3.0953, C-idx=0.7389
+Epoch  18: Train Loss=2.9609 | Val Loss=3.0741, C-idx=0.7526
+  ✓ New best validation C-index: 0.7526
+Epoch  19: Train Loss=2.9559 | Val Loss=3.0884, C-idx=0.7471
+Epoch  20: Train Loss=2.9352 | Val Loss=3.1226, C-idx=0.7375
+Epoch  21: Train Loss=2.9083 | Val Loss=3.1462, C-idx=0.7348
+Epoch  22: Train Loss=2.9652 | Val Loss=3.1989, C-idx=0.7236
+Epoch  23: Train Loss=2.9248 | Val Loss=3.1924, C-idx=0.7306
+Epoch  24: Train Loss=2.8948 | Val Loss=3.1615, C-idx=0.7273
+Epoch  25: Train Loss=2.8388 | Val Loss=3.2263, C-idx=0.7169
+Epoch  26: Train Loss=2.8100 | Val Loss=3.2482, C-idx=0.7066
+Epoch  27: Train Loss=2.7642 | Val Loss=3.4291, C-idx=0.7033
+Epoch  28: Train Loss=2.7685 | Val Loss=3.4154, C-idx=0.7022
+
+Early stopping at epoch 28
+
+================================================================================
+RESULTS: v1_baseline
+================================================================================
+Best Val C-index:  0.7526
+Test C-index:      0.7123
+Test Loss:         3.0503
+
+################################################################################
+# Configuration 2/8
+################################################################################
+
+================================================================================
+Training: v2_deeper
+================================================================================
+Config: {
+  "name": "v2_deeper",
+  "embedding_dim": 128,
+  "n_layers": 8,
+  "n_heads": 8,
+  "dropout": 0.5,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 1,920,009
+Epoch   1: Train Loss=3.7878 | Val Loss=3.3491, C-idx=0.5863
+  ✓ New best validation C-index: 0.5863
+Epoch   2: Train Loss=3.5033 | Val Loss=3.3520, C-idx=0.5918
+  ✓ New best validation C-index: 0.5918
+Epoch   3: Train Loss=3.4178 | Val Loss=3.3567, C-idx=0.5720
+Epoch   4: Train Loss=3.3968 | Val Loss=3.3569, C-idx=0.6078
+  ✓ New best validation C-index: 0.6078
+Epoch   5: Train Loss=3.3843 | Val Loss=3.3552, C-idx=0.6177
+  ✓ New best validation C-index: 0.6177
+Epoch   6: Train Loss=3.3721 | Val Loss=3.3428, C-idx=0.6197
+  ✓ New best validation C-index: 0.6197
+Epoch   7: Train Loss=3.3573 | Val Loss=3.3385, C-idx=0.6153
+Epoch   8: Train Loss=3.3493 | Val Loss=3.3232, C-idx=0.6334
+  ✓ New best validation C-index: 0.6334
+Epoch   9: Train Loss=3.3484 | Val Loss=3.3064, C-idx=0.6420
+  ✓ New best validation C-index: 0.6420
+Epoch  10: Train Loss=3.3421 | Val Loss=3.3099, C-idx=0.6516
+  ✓ New best validation C-index: 0.6516
+Epoch  11: Train Loss=3.3295 | Val Loss=3.2770, C-idx=0.6394
+Epoch  12: Train Loss=3.3094 | Val Loss=3.2902, C-idx=0.6651
+  ✓ New best validation C-index: 0.6651
+Epoch  13: Train Loss=3.3080 | Val Loss=3.2843, C-idx=0.6702
+  ✓ New best validation C-index: 0.6702
+Epoch  14: Train Loss=3.2607 | Val Loss=3.2691, C-idx=0.6720
+  ✓ New best validation C-index: 0.6720
+Epoch  15: Train Loss=3.2479 | Val Loss=3.2028, C-idx=0.6973
+  ✓ New best validation C-index: 0.6973
+Epoch  16: Train Loss=3.2211 | Val Loss=3.2103, C-idx=0.6945
+Epoch  17: Train Loss=3.2153 | Val Loss=3.2266, C-idx=0.6834
+Epoch  18: Train Loss=3.1899 | Val Loss=3.1480, C-idx=0.7056
+  ✓ New best validation C-index: 0.7056
+Epoch  19: Train Loss=3.1536 | Val Loss=3.1742, C-idx=0.6944
+Epoch  20: Train Loss=3.1564 | Val Loss=3.1646, C-idx=0.6933
+Epoch  21: Train Loss=3.1389 | Val Loss=3.1552, C-idx=0.6980
+Epoch  22: Train Loss=3.1182 | Val Loss=3.1473, C-idx=0.7036
+Epoch  23: Train Loss=3.1142 | Val Loss=3.1486, C-idx=0.7176
+  ✓ New best validation C-index: 0.7176
+Epoch  24: Train Loss=3.0744 | Val Loss=3.1132, C-idx=0.7168
+Epoch  25: Train Loss=3.0709 | Val Loss=3.1701, C-idx=0.7136
+Epoch  26: Train Loss=3.0177 | Val Loss=3.1160, C-idx=0.7343
+  ✓ New best validation C-index: 0.7343
+Epoch  27: Train Loss=3.0148 | Val Loss=3.0833, C-idx=0.7358
+  ✓ New best validation C-index: 0.7358
+Epoch  28: Train Loss=2.9974 | Val Loss=3.1030, C-idx=0.7281
+Epoch  29: Train Loss=3.0176 | Val Loss=3.0695, C-idx=0.7389
+  ✓ New best validation C-index: 0.7389
+Epoch  30: Train Loss=2.9824 | Val Loss=3.1438, C-idx=0.7290
+Epoch  31: Train Loss=2.9412 | Val Loss=3.0621, C-idx=0.7424
+  ✓ New best validation C-index: 0.7424
+Epoch  32: Train Loss=2.9197 | Val Loss=3.1999, C-idx=0.7297
+Epoch  33: Train Loss=2.9470 | Val Loss=3.0973, C-idx=0.7334
+Epoch  34: Train Loss=2.9217 | Val Loss=3.1227, C-idx=0.7336
+Epoch  35: Train Loss=2.9089 | Val Loss=3.1673, C-idx=0.7368
+Epoch  36: Train Loss=2.8999 | Val Loss=3.2638, C-idx=0.7235
+Epoch  37: Train Loss=2.9096 | Val Loss=3.2343, C-idx=0.7208
+Epoch  38: Train Loss=2.8302 | Val Loss=3.2334, C-idx=0.7161
+Epoch  39: Train Loss=2.8051 | Val Loss=3.2076, C-idx=0.7231
+Epoch  40: Train Loss=2.7931 | Val Loss=3.2535, C-idx=0.7171
+Epoch  41: Train Loss=2.7939 | Val Loss=3.2001, C-idx=0.7198
+
+Early stopping at epoch 41
+
+================================================================================
+RESULTS: v2_deeper
+================================================================================
+Best Val C-index:  0.7424
+Test C-index:      0.6723
+Test Loss:         3.2373
+
+################################################################################
+# Configuration 3/8
+################################################################################
+
+================================================================================
+Training: v3_wider
+================================================================================
+Config: {
+  "name": "v3_wider",
+  "embedding_dim": 256,
+  "n_layers": 4,
+  "n_heads": 8,
+  "dropout": 0.45,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 2,594,313
+Epoch   1: Train Loss=3.6448 | Val Loss=3.3145, C-idx=0.6253
+  ✓ New best validation C-index: 0.6253
+Epoch   2: Train Loss=3.4259 | Val Loss=3.2989, C-idx=0.6329
+  ✓ New best validation C-index: 0.6329
+Epoch   3: Train Loss=3.3563 | Val Loss=3.2908, C-idx=0.6370
+  ✓ New best validation C-index: 0.6370
+Epoch   4: Train Loss=3.3490 | Val Loss=3.3015, C-idx=0.6400
+  ✓ New best validation C-index: 0.6400
+Epoch   5: Train Loss=3.3572 | Val Loss=3.2965, C-idx=0.6512
+  ✓ New best validation C-index: 0.6512
+Epoch   6: Train Loss=3.3128 | Val Loss=3.2537, C-idx=0.6577
+  ✓ New best validation C-index: 0.6577
+Epoch   7: Train Loss=3.3226 | Val Loss=3.2937, C-idx=0.6416
+Epoch   8: Train Loss=3.3154 | Val Loss=3.2910, C-idx=0.6630
+  ✓ New best validation C-index: 0.6630
+Epoch   9: Train Loss=3.2995 | Val Loss=3.2406, C-idx=0.6934
+  ✓ New best validation C-index: 0.6934
+Epoch  10: Train Loss=3.2410 | Val Loss=3.2079, C-idx=0.6924
+Epoch  11: Train Loss=3.2022 | Val Loss=3.1977, C-idx=0.7140
+  ✓ New best validation C-index: 0.7140
+Epoch  12: Train Loss=3.1742 | Val Loss=3.1923, C-idx=0.7284
+  ✓ New best validation C-index: 0.7284
+Epoch  13: Train Loss=3.1032 | Val Loss=3.1952, C-idx=0.7312
+  ✓ New best validation C-index: 0.7312
+Epoch  14: Train Loss=3.0943 | Val Loss=3.1625, C-idx=0.7467
+  ✓ New best validation C-index: 0.7467
+Epoch  15: Train Loss=3.0400 | Val Loss=3.1166, C-idx=0.7540
+  ✓ New best validation C-index: 0.7540
+Epoch  16: Train Loss=3.0303 | Val Loss=3.0607, C-idx=0.7591
+  ✓ New best validation C-index: 0.7591
+Epoch  17: Train Loss=3.0067 | Val Loss=3.0763, C-idx=0.7583
+Epoch  18: Train Loss=2.9932 | Val Loss=3.0769, C-idx=0.7631
+  ✓ New best validation C-index: 0.7631
+Epoch  19: Train Loss=2.9925 | Val Loss=3.0765, C-idx=0.7657
+  ✓ New best validation C-index: 0.7657
+Epoch  20: Train Loss=2.9931 | Val Loss=3.0773, C-idx=0.7567
+Epoch  21: Train Loss=2.9376 | Val Loss=3.1129, C-idx=0.7589
+Epoch  22: Train Loss=2.9507 | Val Loss=3.0047, C-idx=0.7711
+  ✓ New best validation C-index: 0.7711
+Epoch  23: Train Loss=2.9309 | Val Loss=3.0279, C-idx=0.7694
+Epoch  24: Train Loss=2.9444 | Val Loss=2.9843, C-idx=0.7835
+  ✓ New best validation C-index: 0.7835
+Epoch  25: Train Loss=2.8795 | Val Loss=2.9699, C-idx=0.7824
+Epoch  26: Train Loss=2.9174 | Val Loss=3.0226, C-idx=0.7724
+Epoch  27: Train Loss=2.8873 | Val Loss=3.0071, C-idx=0.7711
+Epoch  28: Train Loss=2.8692 | Val Loss=3.0657, C-idx=0.7638
+Epoch  29: Train Loss=2.8775 | Val Loss=3.1151, C-idx=0.7626
+Epoch  30: Train Loss=2.8631 | Val Loss=3.0987, C-idx=0.7548
+Epoch  31: Train Loss=2.8176 | Val Loss=3.0696, C-idx=0.7541
+Epoch  32: Train Loss=2.7938 | Val Loss=3.0464, C-idx=0.7627
+Epoch  33: Train Loss=2.7938 | Val Loss=3.0959, C-idx=0.7517
+Epoch  34: Train Loss=2.7411 | Val Loss=3.0728, C-idx=0.7617
+
+Early stopping at epoch 34
+
+================================================================================
+RESULTS: v3_wider
+================================================================================
+Best Val C-index:  0.7835
+Test C-index:      0.7207
+Test Loss:         3.0774
+
+################################################################################
+# Configuration 4/8
+################################################################################
+
+================================================================================
+Training: v4_very_wide
+================================================================================
+Config: {
+  "name": "v4_very_wide",
+  "embedding_dim": 320,
+  "n_layers": 4,
+  "n_heads": 8,
+  "dropout": 0.5,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.001
+}
+
+Model parameters: 3,621,129
+Epoch   1: Train Loss=3.8467 | Val Loss=3.3223, C-idx=0.6205
+  ✓ New best validation C-index: 0.6205
+Epoch   2: Train Loss=3.5142 | Val Loss=3.3174, C-idx=0.6238
+  ✓ New best validation C-index: 0.6238
+Epoch   3: Train Loss=3.4210 | Val Loss=3.2883, C-idx=0.6335
+  ✓ New best validation C-index: 0.6335
+Epoch   4: Train Loss=3.3813 | Val Loss=3.2886, C-idx=0.6474
+  ✓ New best validation C-index: 0.6474
+Epoch   5: Train Loss=3.3351 | Val Loss=3.3134, C-idx=0.6519
+  ✓ New best validation C-index: 0.6519
+Epoch   6: Train Loss=3.3377 | Val Loss=3.3187, C-idx=0.6462
+Epoch   7: Train Loss=3.3287 | Val Loss=3.3082, C-idx=0.6509
+Epoch   8: Train Loss=3.3327 | Val Loss=3.2682, C-idx=0.6556
+  ✓ New best validation C-index: 0.6556
+Epoch   9: Train Loss=3.3258 | Val Loss=3.2856, C-idx=0.6520
+Epoch  10: Train Loss=3.3001 | Val Loss=3.2820, C-idx=0.6639
+  ✓ New best validation C-index: 0.6639
+Epoch  11: Train Loss=3.3135 | Val Loss=3.2714, C-idx=0.6621
+Epoch  12: Train Loss=3.3020 | Val Loss=3.2346, C-idx=0.6678
+  ✓ New best validation C-index: 0.6678
+Epoch  13: Train Loss=3.2632 | Val Loss=3.2232, C-idx=0.6621
+Epoch  14: Train Loss=3.2306 | Val Loss=3.1661, C-idx=0.7123
+  ✓ New best validation C-index: 0.7123
+Epoch  15: Train Loss=3.1688 | Val Loss=3.1877, C-idx=0.6985
+Epoch  16: Train Loss=3.1553 | Val Loss=3.1455, C-idx=0.7095
+Epoch  17: Train Loss=3.1479 | Val Loss=3.1500, C-idx=0.7224
+  ✓ New best validation C-index: 0.7224
+Epoch  18: Train Loss=3.0909 | Val Loss=3.1234, C-idx=0.7300
+  ✓ New best validation C-index: 0.7300
+Epoch  19: Train Loss=3.0683 | Val Loss=3.1301, C-idx=0.7423
+  ✓ New best validation C-index: 0.7423
+Epoch  20: Train Loss=3.0635 | Val Loss=3.1693, C-idx=0.7257
+Epoch  21: Train Loss=3.0056 | Val Loss=3.1020, C-idx=0.7445
+  ✓ New best validation C-index: 0.7445
+Epoch  22: Train Loss=3.0026 | Val Loss=3.0851, C-idx=0.7448
+  ✓ New best validation C-index: 0.7448
+Epoch  23: Train Loss=2.9996 | Val Loss=3.1240, C-idx=0.7505
+  ✓ New best validation C-index: 0.7505
+Epoch  24: Train Loss=2.9609 | Val Loss=3.1136, C-idx=0.7480
+Epoch  25: Train Loss=2.9695 | Val Loss=3.0689, C-idx=0.7435
+Epoch  26: Train Loss=2.9609 | Val Loss=3.0758, C-idx=0.7466
+Epoch  27: Train Loss=2.9354 | Val Loss=3.1219, C-idx=0.7361
+Epoch  28: Train Loss=2.9441 | Val Loss=3.2648, C-idx=0.7256
+Epoch  29: Train Loss=2.9004 | Val Loss=3.2285, C-idx=0.7148
+Epoch  30: Train Loss=2.8571 | Val Loss=3.1825, C-idx=0.7287
+Epoch  31: Train Loss=2.8179 | Val Loss=3.1879, C-idx=0.7300
+Epoch  32: Train Loss=2.8092 | Val Loss=3.3519, C-idx=0.7068
+Epoch  33: Train Loss=2.8093 | Val Loss=3.2998, C-idx=0.7206
+
+Early stopping at epoch 33
+
+================================================================================
+RESULTS: v4_very_wide
+================================================================================
+Best Val C-index:  0.7505
+Test C-index:      0.7122
+Test Loss:         3.1021
+
+################################################################################
+# Configuration 5/8
+################################################################################
+
+================================================================================
+Training: v5_heavy_reg
+================================================================================
+Config: {
+  "name": "v5_heavy_reg",
+  "embedding_dim": 160,
+  "n_layers": 5,
+  "n_heads": 8,
+  "dropout": 0.6,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.001
+}
+
+Model parameters: 1,647,529
+Epoch   1: Train Loss=4.2215 | Val Loss=3.3532, C-idx=0.5473
+  ✓ New best validation C-index: 0.5473
+Epoch   2: Train Loss=3.5766 | Val Loss=3.3542, C-idx=0.6101
+  ✓ New best validation C-index: 0.6101
+Epoch   3: Train Loss=3.4335 | Val Loss=3.3532, C-idx=0.6274
+  ✓ New best validation C-index: 0.6274
+Epoch   4: Train Loss=3.4091 | Val Loss=3.3551, C-idx=0.6264
+Epoch   5: Train Loss=3.4018 | Val Loss=3.3544, C-idx=0.6269
+Epoch   6: Train Loss=3.3761 | Val Loss=3.3533, C-idx=0.6312
+  ✓ New best validation C-index: 0.6312
+Epoch   7: Train Loss=3.3618 | Val Loss=3.3297, C-idx=0.6373
+  ✓ New best validation C-index: 0.6373
+Epoch   8: Train Loss=3.3486 | Val Loss=3.3372, C-idx=0.6311
+Epoch   9: Train Loss=3.3512 | Val Loss=3.3067, C-idx=0.6338
+Epoch  10: Train Loss=3.3497 | Val Loss=3.3229, C-idx=0.6352
+Epoch  11: Train Loss=3.3443 | Val Loss=3.3036, C-idx=0.6383
+  ✓ New best validation C-index: 0.6383
+Epoch  12: Train Loss=3.3409 | Val Loss=3.2958, C-idx=0.6380
+Epoch  13: Train Loss=3.3347 | Val Loss=3.3029, C-idx=0.6392
+  ✓ New best validation C-index: 0.6392
+Epoch  14: Train Loss=3.3383 | Val Loss=3.3182, C-idx=0.6415
+  ✓ New best validation C-index: 0.6415
+Epoch  15: Train Loss=3.3456 | Val Loss=3.2959, C-idx=0.6435
+  ✓ New best validation C-index: 0.6435
+Epoch  16: Train Loss=3.3364 | Val Loss=3.3044, C-idx=0.6387
+Epoch  17: Train Loss=3.3186 | Val Loss=3.2999, C-idx=0.6470
+  ✓ New best validation C-index: 0.6470
+Epoch  18: Train Loss=3.3198 | Val Loss=3.2857, C-idx=0.6495
+  ✓ New best validation C-index: 0.6495
+Epoch  19: Train Loss=3.3171 | Val Loss=3.2694, C-idx=0.6452
+Epoch  20: Train Loss=3.3120 | Val Loss=3.2554, C-idx=0.6493
+Epoch  21: Train Loss=3.3149 | Val Loss=3.2588, C-idx=0.6494
+Epoch  22: Train Loss=3.3286 | Val Loss=3.2803, C-idx=0.6523
+  ✓ New best validation C-index: 0.6523
+Epoch  23: Train Loss=3.3092 | Val Loss=3.2644, C-idx=0.6549
+  ✓ New best validation C-index: 0.6549
+Epoch  24: Train Loss=3.3098 | Val Loss=3.2646, C-idx=0.6607
+  ✓ New best validation C-index: 0.6607
+Epoch  25: Train Loss=3.2752 | Val Loss=3.2668, C-idx=0.6798
+  ✓ New best validation C-index: 0.6798
+Epoch  26: Train Loss=3.2899 | Val Loss=3.2517, C-idx=0.6878
+  ✓ New best validation C-index: 0.6878
+Epoch  27: Train Loss=3.2721 | Val Loss=3.3101, C-idx=0.6522
+Epoch  28: Train Loss=3.2658 | Val Loss=3.2611, C-idx=0.6815
+Epoch  29: Train Loss=3.2190 | Val Loss=3.2528, C-idx=0.7248
+  ✓ New best validation C-index: 0.7248
+Epoch  30: Train Loss=3.1950 | Val Loss=3.2932, C-idx=0.7012
+Epoch  31: Train Loss=3.1782 | Val Loss=3.1742, C-idx=0.7154
+Epoch  32: Train Loss=3.1448 | Val Loss=3.2287, C-idx=0.7220
+Epoch  33: Train Loss=3.1343 | Val Loss=3.1667, C-idx=0.7250
+  ✓ New best validation C-index: 0.7250
+Epoch  34: Train Loss=3.1105 | Val Loss=3.1960, C-idx=0.7322
+  ✓ New best validation C-index: 0.7322
+Epoch  35: Train Loss=3.1210 | Val Loss=3.1693, C-idx=0.7206
+Epoch  36: Train Loss=3.0629 | Val Loss=3.2073, C-idx=0.7065
+Epoch  37: Train Loss=3.0390 | Val Loss=3.2101, C-idx=0.7216
+Epoch  38: Train Loss=3.0481 | Val Loss=3.1990, C-idx=0.7199
+Epoch  39: Train Loss=3.0348 | Val Loss=3.2160, C-idx=0.7371
+  ✓ New best validation C-index: 0.7371
+Epoch  40: Train Loss=2.9952 | Val Loss=3.1693, C-idx=0.7351
+Epoch  41: Train Loss=2.9993 | Val Loss=3.1615, C-idx=0.7332
+Epoch  42: Train Loss=2.9668 | Val Loss=3.1128, C-idx=0.7282
+Epoch  43: Train Loss=2.9817 | Val Loss=3.0838, C-idx=0.7556
+  ✓ New best validation C-index: 0.7556
+Epoch  44: Train Loss=2.9514 | Val Loss=3.2022, C-idx=0.7440
+Epoch  45: Train Loss=2.9470 | Val Loss=3.1823, C-idx=0.7516
+Epoch  46: Train Loss=2.9310 | Val Loss=3.0808, C-idx=0.7630
+  ✓ New best validation C-index: 0.7630
+Epoch  47: Train Loss=2.9140 | Val Loss=3.0519, C-idx=0.7569
+Epoch  48: Train Loss=2.9027 | Val Loss=3.1662, C-idx=0.7603
+Epoch  49: Train Loss=2.8886 | Val Loss=3.1612, C-idx=0.7626
+Epoch  50: Train Loss=2.8641 | Val Loss=3.1795, C-idx=0.7622
+
+================================================================================
+RESULTS: v5_heavy_reg
+================================================================================
+Best Val C-index:  0.7630
+Test C-index:      0.7119
+Test Loss:         3.1633
+
+################################################################################
+# Configuration 6/8
+################################################################################
+
+================================================================================
+Training: v6_more_heads
+================================================================================
+Config: {
+  "name": "v6_more_heads",
+  "embedding_dim": 192,
+  "n_layers": 5,
+  "n_heads": 12,
+  "dropout": 0.45,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 2,114,637
+Epoch   1: Train Loss=3.7414 | Val Loss=3.3455, C-idx=0.5841
+  ✓ New best validation C-index: 0.5841
+Epoch   2: Train Loss=3.4218 | Val Loss=3.3213, C-idx=0.6115
+  ✓ New best validation C-index: 0.6115
+Epoch   3: Train Loss=3.3628 | Val Loss=3.3296, C-idx=0.6358
+  ✓ New best validation C-index: 0.6358
+Epoch   4: Train Loss=3.3519 | Val Loss=3.3206, C-idx=0.6414
+  ✓ New best validation C-index: 0.6414
+Epoch   5: Train Loss=3.3252 | Val Loss=3.2702, C-idx=0.6420
+  ✓ New best validation C-index: 0.6420
+Epoch   6: Train Loss=3.3268 | Val Loss=3.2477, C-idx=0.6525
+  ✓ New best validation C-index: 0.6525
+Epoch   7: Train Loss=3.3328 | Val Loss=3.2729, C-idx=0.6536
+  ✓ New best validation C-index: 0.6536
+Epoch   8: Train Loss=3.3251 | Val Loss=3.2653, C-idx=0.6635
+  ✓ New best validation C-index: 0.6635
+Epoch   9: Train Loss=3.2458 | Val Loss=3.2866, C-idx=0.6918
+  ✓ New best validation C-index: 0.6918
+Epoch  10: Train Loss=3.2211 | Val Loss=3.2371, C-idx=0.7008
+  ✓ New best validation C-index: 0.7008
+Epoch  11: Train Loss=3.1756 | Val Loss=3.1025, C-idx=0.7322
+  ✓ New best validation C-index: 0.7322
+Epoch  12: Train Loss=3.1263 | Val Loss=3.1045, C-idx=0.7426
+  ✓ New best validation C-index: 0.7426
+Epoch  13: Train Loss=3.0848 | Val Loss=3.1765, C-idx=0.7475
+  ✓ New best validation C-index: 0.7475
+Epoch  14: Train Loss=3.0527 | Val Loss=3.1563, C-idx=0.7547
+  ✓ New best validation C-index: 0.7547
+Epoch  15: Train Loss=3.0228 | Val Loss=3.2018, C-idx=0.7394
+Epoch  16: Train Loss=3.0060 | Val Loss=3.1877, C-idx=0.7492
+Epoch  17: Train Loss=2.9690 | Val Loss=3.1324, C-idx=0.7442
+Epoch  18: Train Loss=2.9671 | Val Loss=3.2476, C-idx=0.7339
+Epoch  19: Train Loss=2.9359 | Val Loss=3.1327, C-idx=0.7341
+Epoch  20: Train Loss=2.9092 | Val Loss=3.1675, C-idx=0.7329
+Epoch  21: Train Loss=2.8431 | Val Loss=3.2205, C-idx=0.7327
+Epoch  22: Train Loss=2.8222 | Val Loss=3.3408, C-idx=0.7064
+Epoch  23: Train Loss=2.7770 | Val Loss=3.2789, C-idx=0.7069
+Epoch  24: Train Loss=2.7484 | Val Loss=3.3526, C-idx=0.7019
+
+Early stopping at epoch 24
+
+================================================================================
+RESULTS: v6_more_heads
+================================================================================
+Best Val C-index:  0.7547
+Test C-index:      0.6878
+Test Loss:         3.0919
+
+################################################################################
+# Configuration 7/8
+################################################################################
+
+================================================================================
+Training: v7_shallow_wide
+================================================================================
+Config: {
+  "name": "v7_shallow_wide",
+  "embedding_dim": 256,
+  "n_layers": 3,
+  "n_heads": 8,
+  "dropout": 0.4,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 2,001,545
+Epoch   1: Train Loss=3.5520 | Val Loss=3.2746, C-idx=0.6431
+  ✓ New best validation C-index: 0.6431
+Epoch   2: Train Loss=3.3951 | Val Loss=3.3014, C-idx=0.6539
+  ✓ New best validation C-index: 0.6539
+Epoch   3: Train Loss=3.3724 | Val Loss=3.2930, C-idx=0.6541
+  ✓ New best validation C-index: 0.6541
+Epoch   4: Train Loss=3.3443 | Val Loss=3.3029, C-idx=0.6329
+Epoch   5: Train Loss=3.3120 | Val Loss=3.2740, C-idx=0.6624
+  ✓ New best validation C-index: 0.6624
+Epoch   6: Train Loss=3.2983 | Val Loss=3.2066, C-idx=0.7014
+  ✓ New best validation C-index: 0.7014
+Epoch   7: Train Loss=3.2439 | Val Loss=3.2284, C-idx=0.6724
+Epoch   8: Train Loss=3.2277 | Val Loss=3.1574, C-idx=0.7067
+  ✓ New best validation C-index: 0.7067
+Epoch   9: Train Loss=3.1736 | Val Loss=3.1578, C-idx=0.7137
+  ✓ New best validation C-index: 0.7137
+Epoch  10: Train Loss=3.1055 | Val Loss=3.1768, C-idx=0.7131
+Epoch  11: Train Loss=3.0810 | Val Loss=3.1199, C-idx=0.7369
+  ✓ New best validation C-index: 0.7369
+Epoch  12: Train Loss=3.0654 | Val Loss=3.1243, C-idx=0.7372
+  ✓ New best validation C-index: 0.7372
+Epoch  13: Train Loss=3.0098 | Val Loss=3.0827, C-idx=0.7488
+  ✓ New best validation C-index: 0.7488
+Epoch  14: Train Loss=2.9968 | Val Loss=3.0614, C-idx=0.7542
+  ✓ New best validation C-index: 0.7542
+Epoch  15: Train Loss=2.9710 | Val Loss=3.0338, C-idx=0.7602
+  ✓ New best validation C-index: 0.7602
+Epoch  16: Train Loss=2.9615 | Val Loss=3.0378, C-idx=0.7595
+Epoch  17: Train Loss=2.9393 | Val Loss=3.0565, C-idx=0.7607
+  ✓ New best validation C-index: 0.7607
+Epoch  18: Train Loss=2.9113 | Val Loss=2.9827, C-idx=0.7674
+  ✓ New best validation C-index: 0.7674
+Epoch  19: Train Loss=2.9300 | Val Loss=3.0805, C-idx=0.7565
+Epoch  20: Train Loss=2.8885 | Val Loss=2.9885, C-idx=0.7719
+  ✓ New best validation C-index: 0.7719
+Epoch  21: Train Loss=2.8614 | Val Loss=3.0567, C-idx=0.7690
+Epoch  22: Train Loss=2.8700 | Val Loss=3.0434, C-idx=0.7528
+Epoch  23: Train Loss=2.8387 | Val Loss=3.0662, C-idx=0.7569
+Epoch  24: Train Loss=2.8152 | Val Loss=3.0527, C-idx=0.7622
+Epoch  25: Train Loss=2.8292 | Val Loss=3.0439, C-idx=0.7529
+Epoch  26: Train Loss=2.7906 | Val Loss=3.0574, C-idx=0.7562
+Epoch  27: Train Loss=2.7471 | Val Loss=3.0972, C-idx=0.7565
+Epoch  28: Train Loss=2.7445 | Val Loss=3.0713, C-idx=0.7609
+Epoch  29: Train Loss=2.6884 | Val Loss=3.1666, C-idx=0.7449
+Epoch  30: Train Loss=2.7075 | Val Loss=3.1361, C-idx=0.7382
+
+Early stopping at epoch 30
+
+================================================================================
+RESULTS: v7_shallow_wide
+================================================================================
+Best Val C-index:  0.7719
+Test C-index:      0.7070
+Test Loss:         3.1390
+
+################################################################################
+# Configuration 8/8
+################################################################################
+
+================================================================================
+Training: v8_compact
+================================================================================
+Config: {
+  "name": "v8_compact",
+  "embedding_dim": 96,
+  "n_layers": 6,
+  "n_heads": 6,
+  "dropout": 0.45,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+Model parameters: 1,012,807
+Epoch   1: Train Loss=3.5103 | Val Loss=3.3438, C-idx=0.6212
+  ✓ New best validation C-index: 0.6212
+Epoch   2: Train Loss=3.3980 | Val Loss=3.3418, C-idx=0.6298
+  ✓ New best validation C-index: 0.6298
+Epoch   3: Train Loss=3.3865 | Val Loss=3.3195, C-idx=0.6373
+  ✓ New best validation C-index: 0.6373
+Epoch   4: Train Loss=3.3694 | Val Loss=3.3203, C-idx=0.6273
+Epoch   5: Train Loss=3.3449 | Val Loss=3.2933, C-idx=0.6453
+  ✓ New best validation C-index: 0.6453
+Epoch   6: Train Loss=3.3113 | Val Loss=3.2615, C-idx=0.6459
+  ✓ New best validation C-index: 0.6459
+Epoch   7: Train Loss=3.3412 | Val Loss=3.2853, C-idx=0.6352
+Epoch   8: Train Loss=3.3304 | Val Loss=3.2965, C-idx=0.6320
+Epoch   9: Train Loss=3.3269 | Val Loss=3.2792, C-idx=0.6270
+Epoch  10: Train Loss=3.3142 | Val Loss=3.3018, C-idx=0.6199
+Epoch  11: Train Loss=3.3097 | Val Loss=3.2836, C-idx=0.6290
+Epoch  12: Train Loss=3.2842 | Val Loss=3.2517, C-idx=0.6637
+  ✓ New best validation C-index: 0.6637
+Epoch  13: Train Loss=3.2355 | Val Loss=3.2191, C-idx=0.6963
+  ✓ New best validation C-index: 0.6963
+Epoch  14: Train Loss=3.2076 | Val Loss=3.2201, C-idx=0.6895
+Epoch  15: Train Loss=3.1427 | Val Loss=3.2110, C-idx=0.7025
+  ✓ New best validation C-index: 0.7025
+Epoch  16: Train Loss=3.1403 | Val Loss=3.1961, C-idx=0.7110
+  ✓ New best validation C-index: 0.7110
+Epoch  17: Train Loss=3.0802 | Val Loss=3.2245, C-idx=0.7059
+Epoch  18: Train Loss=3.0602 | Val Loss=3.1483, C-idx=0.7237
+  ✓ New best validation C-index: 0.7237
+Epoch  19: Train Loss=3.0502 | Val Loss=3.3129, C-idx=0.7046
+Epoch  20: Train Loss=3.0490 | Val Loss=3.4397, C-idx=0.6940
+Epoch  21: Train Loss=2.9821 | Val Loss=3.2839, C-idx=0.7139
+Epoch  22: Train Loss=2.9907 | Val Loss=3.3113, C-idx=0.6982
+Epoch  23: Train Loss=2.9662 | Val Loss=3.3080, C-idx=0.7053
+Epoch  24: Train Loss=2.9621 | Val Loss=3.4667, C-idx=0.6851
+Epoch  25: Train Loss=2.9163 | Val Loss=3.3398, C-idx=0.7002
+Epoch  26: Train Loss=2.8839 | Val Loss=3.3086, C-idx=0.7005
+Epoch  27: Train Loss=2.8691 | Val Loss=3.4452, C-idx=0.6899
+Epoch  28: Train Loss=2.8685 | Val Loss=3.4293, C-idx=0.6926
+
+Early stopping at epoch 28
+
+================================================================================
+RESULTS: v8_compact
+================================================================================
+Best Val C-index:  0.7237
+Test C-index:      0.6808
+Test Loss:         3.1377
+
+================================================================================
+OPTIMIZATION COMPLETE
+================================================================================
+End time: 2025-12-03 18:03:28
+
+Tested 8 configurations successfully
+
+================================================================================
+BEST MODEL
+================================================================================
+Name: v3_wider
+Test C-index: 0.7207
+Val C-index: 0.7835
+Parameters: 2,594,313
+
+Configuration:
+{
+  "name": "v3_wider",
+  "embedding_dim": 256,
+  "n_layers": 4,
+  "n_heads": 8,
+  "dropout": 0.45,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0005
+}
+
+================================================================================
+ALL RESULTS (Ranked by Test C-index)
+================================================================================
+Rank   Name                        Test C-idx    Val C-idx     Params
+--------------------------------------------------------------------------------
+1      v3_wider                        0.7207       0.7835  2,594,313
+2      v1_baseline                     0.7123       0.7526  1,647,529
+3      v4_very_wide                    0.7122       0.7505  3,621,129
+4      v5_heavy_reg                    0.7119       0.7630  1,647,529
+5      v7_shallow_wide                 0.7070       0.7719  2,001,545
+6      v6_more_heads                   0.6878       0.7547  2,114,637
+7      v8_compact                      0.6808       0.7237  1,012,807
+8      v2_deeper                       0.6723       0.7424  1,920,009
+
+✅ Saved summary to: ../outputs/optimization/optimization_summary.json
+✅ Best model saved to: ../outputs/optimization/v3_wider_best.pt

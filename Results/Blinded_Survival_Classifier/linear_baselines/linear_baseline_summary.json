@@ -1,0 +1,55 @@
+{
+  "cox_pca_10": {
+    "model_name": "cox_pca_10",
+    "n_components": 10,
+    "train_c_index": 0.6612850969543356,
+    "val_c_index": 0.6488408507676917,
+    "test_c_index": 0.6365381297446515,
+    "explained_variance": 0.4643240848456648,
+    "n_params": 10
+  },
+  "cox_pca_25": {
+    "model_name": "cox_pca_25",
+    "n_components": 25,
+    "train_c_index": 0.736385775805829,
+    "val_c_index": 0.7589491540167892,
+    "test_c_index": 0.7143396307798482,
+    "explained_variance": 0.64227176516091,
+    "n_params": 25
+  },
+  "cox_pca_50": {
+    "model_name": "cox_pca_50",
+    "n_components": 50,
+    "train_c_index": 0.760671551577768,
+    "val_c_index": 0.7877212822408769,
+    "test_c_index": 0.7430016390614217,
+    "explained_variance": 0.774645469157546,
+    "n_params": 50
+  },
+  "cox_pca_100": {
+    "model_name": "cox_pca_100",
+    "n_components": 100,
+    "train_c_index": 0.7731795199746231,
+    "val_c_index": 0.7941585837936583,
+    "test_c_index": 0.7401548481711525,
+    "explained_variance": 0.9002966227491211,
+    "n_params": 100
+  },
+  "cox_raw": {
+    "model_name": "cox_raw",
+    "n_features": 202,
+    "train_c_index": 0.773078697090438,
+    "val_c_index": 0.7899830368405028,
+    "test_c_index": 0.7392706176673568,
+    "n_params": 202
+  },
+  "elastic_net_cox": {
+    "model_name": "elastic_net_cox",
+    "n_features": 202,
+    "n_selected": 20,
+    "train_c_index": 0.7345635080805729,
+    "val_c_index": 0.7420186159801662,
+    "test_c_index": 0.7138112491373361,
+    "n_params": 20
+  }
+}

@@ -1,0 +1,409 @@
+Logging to: ../outputs/survival/logs_20251203_225356.txt
+================================================================================
+Graph Transformer Survival Predictor
+================================================================================
+
+Device: mps
+Output directory: ../outputs/survival
+Use clinical features: True
+Use genomic features: False
+
+================================================================================
+Loading Graph Prior
+================================================================================
+Loaded STRING prior: 198 proteins, 1184 edges
+Computed diffusion kernel and 16 positional encodings
+
+================================================================================
+Loading and Preprocessing Data
+================================================================================
+Loading data from ../../processed_datasets/tcga_pancan_rppa_compiled.csv...
+Loaded 7523 samples with 223 columns
+
+BLINDED Column Identification (IHC-available features only):
+  Identifiers: 2
+  Proteins (IHC): 198
+  Clinical (numeric): 1 - ['AGE']
+  Clinical (categorical): 3 - ['SEX', 'RACE', 'GENETIC_ANCESTRY_LABEL']
+  Genomic: 0 (ALWAYS 0 for blinded model)
+  Survival (targets): 9
+  Excluded (cancer type, stage, genomic): 11
+
+================================================================================
+Filtering Samples
+================================================================================
+Protein filter: 7523/7523 samples have ≤50.0% missing proteins
+Survival filter: 7201/7523 samples have valid DSS data
+Combined: 7201/7523 samples pass all filters
+
+================================================================================
+Processing Survival Labels
+================================================================================
+Survival statistics:
+  Events (deaths): 1601 (22.2%)
+  Censored: 5600 (77.8%)
+  Median survival time: 24.3 months
+  Time range: 0.0 - 369.9 months
+
+Survival by cancer type:
+  ACC: n=45, events=13 (28.9%), median_time=44.4 months
+  BLCA: n=328, events=104 (31.7%), median_time=17.7 months
+  BRCA: n=857, events=66 (7.7%), median_time=25.9 months
+  CESC: n=163, events=19 (11.7%), median_time=20.4 months
+  CHOL: n=29, events=13 (44.8%), median_time=21.0 months
+  COAD: n=330, events=45 (13.6%), median_time=21.1 months
+  DLBC: n=33, events=2 (6.1%), median_time=24.6 months
+  ESCA: n=123, events=24 (19.5%), median_time=12.9 months
+  GBM: n=215, events=152 (70.7%), median_time=12.1 months
+  HNSC: n=194, events=73 (37.6%), median_time=23.4 months
+  KICH: n=62, events=6 (9.7%), median_time=85.7 months
+  KIRC: n=446, events=102 (22.9%), median_time=38.7 months
+  KIRP: n=206, events=22 (10.7%), median_time=25.0 months
+  LGG: n=420, events=89 (21.2%), median_time=20.3 months
+  LIHC: n=172, events=53 (30.8%), median_time=17.8 months
+  LUAD: n=319, events=79 (24.8%), median_time=23.0 months
+  LUSC: n=285, events=60 (21.1%), median_time=23.0 months
+  MESO: n=46, events=34 (73.9%), median_time=17.0 months
+  OV: n=385, events=210 (54.5%), median_time=33.1 months
+  PAAD: n=115, events=56 (48.7%), median_time=15.3 months
+  PCPG: n=79, events=1 (1.3%), median_time=26.9 months
+  PRAD: n=349, events=4 (1.1%), median_time=32.3 months
+  READ: n=111, events=12 (10.8%), median_time=20.0 months
+  SARC: n=213, events=66 (31.0%), median_time=30.3 months
+  SKCM: n=315, events=132 (41.9%), median_time=33.7 months
+  STAD: n=326, events=75 (23.0%), median_time=14.1 months
+  TGCT: n=104, events=3 (2.9%), median_time=45.3 months
+  THCA: n=363, events=7 (1.9%), median_time=32.3 months
+  THYM: n=89, events=3 (3.4%), median_time=34.7 months
+  UCEC: n=421, events=46 (10.9%), median_time=28.9 months
+  UCS: n=46, events=28 (60.9%), median_time=20.0 months
+  UVM: n=12, events=2 (16.7%), median_time=23.5 months
+
+================================================================================
+Splitting Data
+================================================================================
+Data splits:
+  Train: 5761 samples (80.0%), 1281 events
+  Val:   720 samples (10.0%), 160 events
+  Test:  720 samples (10.0%), 160 events
+
+================================================================================
+Processing Protein Expression Data
+================================================================================
+Protein features: 198
+
+================================================================================
+Processing Clinical Features
+================================================================================
+Clinical features: 4
+
+================================================================================
+Preprocessing Complete
+================================================================================
+Total features per sample:
+  Proteins: 198
+  Clinical: 4
+  Genomic:  0
+  TOTAL:    202
+
+Survival task: Predict DSS_STATUS and DSS_MONTHS
+  Event rate: 22.2%
+  Median follow-up: 24.3 months
+
+Creating DataLoaders...
+
+================================================================================
+Initializing Model
+================================================================================
+Model parameters: 863,753
+Feature dimensions:
+  - Proteins: 198
+  - Clinical: 4
+  - Genomic:  0
+  - TOTAL:    202
+
+Using reduce_on_plateau learning rate scheduler
+
+================================================================================
+Training
+================================================================================
+
+Epoch 1/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.3788 | Train C-index: 0.6240
+Val Loss:   3.2810 | Val C-index:   0.6306
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.6306)
+
+Epoch 2/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.3357 | Train C-index: 0.6386
+Val Loss:   3.2468 | Val C-index:   0.6708
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.6708)
+
+Epoch 3/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.2705 | Train C-index: 0.6785
+Val Loss:   3.2071 | Val C-index:   0.7071
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7071)
+
+Epoch 4/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.2115 | Train C-index: 0.7102
+Val Loss:   3.1721 | Val C-index:   0.7159
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7159)
+
+Epoch 5/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.1291 | Train C-index: 0.7558
+Val Loss:   3.0536 | Val C-index:   0.7433
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7433)
+
+Epoch 6/100
+--------------------------------------------------------------------------------
+
+Train Loss: 3.0539 | Train C-index: 0.7559
+Val Loss:   3.0916 | Val C-index:   0.7421
+Learning Rate: 1.00e-04
+
+Epoch 7/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9800 | Train C-index: 0.7697
+Val Loss:   3.0557 | Val C-index:   0.7409
+Learning Rate: 1.00e-04
+
+Epoch 8/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9950 | Train C-index: 0.7833
+Val Loss:   3.0846 | Val C-index:   0.7357
+Learning Rate: 1.00e-04
+
+Epoch 9/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9520 | Train C-index: 0.7799
+Val Loss:   3.0832 | Val C-index:   0.7358
+Learning Rate: 1.00e-04
+
+Epoch 10/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9271 | Train C-index: 0.7999
+Val Loss:   3.0602 | Val C-index:   0.7470
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7470)
+
+Epoch 11/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9250 | Train C-index: 0.7871
+Val Loss:   3.0778 | Val C-index:   0.7393
+Learning Rate: 1.00e-04
+
+Epoch 12/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9052 | Train C-index: 0.8024
+Val Loss:   3.0477 | Val C-index:   0.7613
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7613)
+
+Epoch 13/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.9098 | Train C-index: 0.8070
+Val Loss:   3.0370 | Val C-index:   0.7564
+Learning Rate: 1.00e-04
+
+Epoch 14/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8776 | Train C-index: 0.8036
+Val Loss:   3.0309 | Val C-index:   0.7554
+Learning Rate: 1.00e-04
+
+Epoch 15/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8706 | Train C-index: 0.8061
+Val Loss:   3.1422 | Val C-index:   0.7512
+Learning Rate: 1.00e-04
+
+Epoch 16/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8329 | Train C-index: 0.8086
+Val Loss:   3.0499 | Val C-index:   0.7647
+Learning Rate: 1.00e-04
+✓ Saved best model (val_c_index: 0.7647)
+
+Epoch 17/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8268 | Train C-index: 0.8077
+Val Loss:   3.1278 | Val C-index:   0.7647
+Learning Rate: 1.00e-04
+
+Epoch 18/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8021 | Train C-index: 0.8150
+Val Loss:   3.2745 | Val C-index:   0.7404
+Learning Rate: 1.00e-04
+
+Epoch 19/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8181 | Train C-index: 0.8200
+Val Loss:   3.2685 | Val C-index:   0.7464
+Learning Rate: 1.00e-04
+
+Epoch 20/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.8125 | Train C-index: 0.8218
+Val Loss:   3.1092 | Val C-index:   0.7536
+Learning Rate: 1.00e-04
+
+Epoch 21/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.7753 | Train C-index: 0.8276
+Val Loss:   3.1816 | Val C-index:   0.7509
+Learning Rate: 1.00e-04
+
+Epoch 22/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.7576 | Train C-index: 0.8356
+Val Loss:   3.1470 | Val C-index:   0.7605
+Learning Rate: 5.00e-05
+
+Epoch 23/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6898 | Train C-index: 0.8382
+Val Loss:   3.1240 | Val C-index:   0.7563
+Learning Rate: 5.00e-05
+
+Epoch 24/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.7024 | Train C-index: 0.8403
+Val Loss:   3.1030 | Val C-index:   0.7584
+Learning Rate: 5.00e-05
+
+Epoch 25/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6439 | Train C-index: 0.8474
+Val Loss:   3.2711 | Val C-index:   0.7549
+Learning Rate: 5.00e-05
+
+Epoch 26/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6370 | Train C-index: 0.8486
+Val Loss:   3.2702 | Val C-index:   0.7521
+Learning Rate: 5.00e-05
+
+Epoch 27/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6240 | Train C-index: 0.8508
+Val Loss:   3.1972 | Val C-index:   0.7607
+Learning Rate: 5.00e-05
+
+Epoch 28/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6395 | Train C-index: 0.8523
+Val Loss:   3.2030 | Val C-index:   0.7393
+Learning Rate: 2.50e-05
+
+Epoch 29/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.6225 | Train C-index: 0.8591
+Val Loss:   3.2177 | Val C-index:   0.7476
+Learning Rate: 2.50e-05
+
+Epoch 30/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.5565 | Train C-index: 0.8631
+Val Loss:   3.2315 | Val C-index:   0.7523
+Learning Rate: 2.50e-05
+
+Epoch 31/100
+--------------------------------------------------------------------------------
+
+Train Loss: 2.5607 | Train C-index: 0.8635
+Val Loss:   3.2700 | Val C-index:   0.7483
+Learning Rate: 2.50e-05
+
+Early stopping triggered after 31 epochs
+Best validation C-index: 0.7647
+
+Training history saved to ../outputs/survival/results/training_history.json
+Training curves saved to ../outputs/survival/plots/training_curves.png
+
+================================================================================
+Testing
+================================================================================
+Loaded best model from epoch 16
+Best validation C-index: 0.7647
+
+Test Set Results:
+  Cox Loss:  3.1219
+  C-index:   0.6925
+
+C-index interpretation:
+  0.50-0.60: Random to weak
+  0.60-0.70: Acceptable
+  0.70-0.80: Good
+  0.80-0.90: Excellent
+  0.90-1.00: Outstanding
+
+Test Set Statistics:
+  Total samples: 720
+  Events (deaths): 160 (22.2%)
+  Censored: 560 (77.8%)
+  Median time: 23.2 months
+  Time range: [0.0, 225.6] months
+
+Risk Score Statistics:
+  Mean: 0.4117
+  Std:  0.9845
+  Min:  -2.7948
+  Max:  3.4760
+Kaplan-Meier curves saved to ../outputs/survival/plots/kaplan_meier.png
+Risk distribution plot saved to ../outputs/survival/plots/risk_distribution.png
+
+Test results saved to ../outputs/survival/results/test_results.json
+Test predictions saved to ../outputs/survival/results/test_predictions.json
+
+================================================================================
+Training Complete!
+================================================================================
+
+Final Performance:
+  Best Val C-index: 0.7647
+  Test C-index:     0.6925
+
+All outputs saved to: ../outputs/survival
+  - Logs: ../outputs/survival/logs_20251203_225356.txt
+  - Checkpoints: ../outputs/survival/checkpoints
+  - Results: ../outputs/survival/results
+  - Plots: ../outputs/survival/plots

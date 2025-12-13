@@ -1,0 +1,32 @@
+[
+  {
+    "config_name": "baseline",
+    "config": {
+      "name": "baseline",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.595980703830719,
+    "test_c_index": 0.6025025248527527,
+    "final_epoch": 40
+  },
+  {
+    "config_name": "v1_deeper",
+    "config": {
+      "name": "v1_deeper",
+      "embedding_dim": 256,
+      "n_layers": 4,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.59450763463974,
+    "test_c_index": 0.6328434944152832,
+    "final_epoch": 24
+  }
+]

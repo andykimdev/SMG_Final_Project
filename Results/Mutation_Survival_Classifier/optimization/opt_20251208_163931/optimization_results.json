@@ -1,0 +1,135 @@
+[
+  {
+    "config_name": "baseline",
+    "config": {
+      "name": "baseline",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5959690809249878,
+    "test_c_index": 0.6260475516319275,
+    "final_epoch": 41
+  },
+  {
+    "config_name": "v1_deeper",
+    "config": {
+      "name": "v1_deeper",
+      "embedding_dim": 256,
+      "n_layers": 4,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5937769412994385,
+    "test_c_index": 0.6238155961036682,
+    "final_epoch": 21
+  },
+  {
+    "config_name": "v2_wider",
+    "config": {
+      "name": "v2_wider",
+      "embedding_dim": 320,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5851320624351501,
+    "test_c_index": 0.6238194704055786,
+    "final_epoch": 16
+  },
+  {
+    "config_name": "v3_higher_dropout",
+    "config": {
+      "name": "v3_higher_dropout",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.5,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5832183361053467,
+    "test_c_index": 0.6132650971412659,
+    "final_epoch": 15
+  },
+  {
+    "config_name": "v4_lower_lr",
+    "config": {
+      "name": "v4_lower_lr",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5839799642562866,
+    "test_c_index": 0.613573431968689,
+    "final_epoch": 19
+  },
+  {
+    "config_name": "v5_higher_wd",
+    "config": {
+      "name": "v5_higher_wd",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 8,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.001
+    },
+    "val_c_index": 0.591573178768158,
+    "test_c_index": 0.6213639974594116,
+    "final_epoch": 19
+  },
+  {
+    "config_name": "v6_more_heads",
+    "config": {
+      "name": "v6_more_heads",
+      "embedding_dim": 256,
+      "n_layers": 3,
+      "n_heads": 12,
+      "dropout": 0.4,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "error": "d_model must be divisible by n_heads"
+  },
+  {
+    "config_name": "v7_shallow_wide",
+    "config": {
+      "name": "v7_shallow_wide",
+      "embedding_dim": 384,
+      "n_layers": 2,
+      "n_heads": 8,
+      "dropout": 0.45,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0005
+    },
+    "val_c_index": 0.5880588293075562,
+    "test_c_index": 0.6183379888534546,
+    "final_epoch": 29
+  },
+  {
+    "config_name": "v8_combo",
+    "config": {
+      "name": "v8_combo",
+      "embedding_dim": 320,
+      "n_layers": 3,
+      "n_heads": 10,
+      "dropout": 0.45,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0007
+    },
+    "val_c_index": 0.5880162715911865,
+    "test_c_index": 0.6219460368156433,
+    "final_epoch": 32
+  }
+]

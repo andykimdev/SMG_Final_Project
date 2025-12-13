@@ -1,0 +1,18 @@
+{
+  "test_loss": 3.0803598364194236,
+  "test_c_index": 0.7101518511772156,
+  "best_val_loss": 3.067943513393402,
+  "best_val_c_index": 0.762352705001831,
+  "n_epochs": 21,
+  "n_params": 2594313,
+  "n_events": 160,
+  "n_censored": 560,
+  "event_rate": 0.2222222222222222,
+  "median_survival_time": 23.19426727294922,
+  "features": {
+    "proteins": 198,
+    "clinical": 4,
+    "genomic": 0,
+    "total": 202
+  }
+}
