@@ -122,3 +122,11 @@ See `requirements.txt`. Key packages:
 - NumPy, Pandas, Scikit-learn
 - SHAP >= 0.41.0
 - Matplotlib, Seaborn, Jupyter
+
+## Workaround should GitHub code is insufficient
+
+See 'https://drive.google.com/drive/folders/1Z7KktivWf7Rte6I9dGlv65goffnVoTWQ?usp=sharing',
+which contains all necessary code / files. 
+
+
+
