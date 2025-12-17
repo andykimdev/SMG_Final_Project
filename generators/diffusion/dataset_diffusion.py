@@ -27,7 +27,7 @@ import os
 import re
 
 # Add Classifier directory to path to import data utilities
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Classifier'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Cancer Classifier'))
 
 import config
 

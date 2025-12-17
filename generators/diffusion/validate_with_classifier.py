@@ -29,7 +29,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # Add parent directories to path
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Classifier'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Cancer Classifier'))
 sys.path.append(os.path.dirname(__file__))
 
 import config
@@ -411,7 +411,7 @@ def main():
     print("\n" + "="*60)
     print("STEP 3: Loading Classifier")
     print("="*60)
-    clf_checkpoint_path = "../Classifier/outputs/checkpoints/best_model.pt"
+    clf_checkpoint_path = "../Cancer Classifier/outputs/checkpoints/best_model.pt"
     clf_checkpoint = torch.load(clf_checkpoint_path, map_location=device, weights_only=False)
     label_info = clf_checkpoint['label_info']
     

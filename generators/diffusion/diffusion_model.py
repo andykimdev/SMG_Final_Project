@@ -11,7 +11,7 @@ from typing import Dict, Optional
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Classifier'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Cancer Classifier'))
 
 from graph_transformer_classifier import GraphAwareMultiheadAttention, GraphTransformerLayer
 import config

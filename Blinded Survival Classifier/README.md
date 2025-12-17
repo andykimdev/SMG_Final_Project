@@ -58,7 +58,7 @@ This blinded approach tests whether:
 ## Project Structure
 
 ```
-Blinded Survival Classifier/
+Blinded Survival Cancer Classifier/
 ├── blinded_survival_classifier/  # Main package
 │   ├── __init__.py
 │   ├── config.py                # Hyperparameters
@@ -108,11 +108,11 @@ Train both models and compare:
 
 ```bash
 # Blinded model (this folder)
-cd "Blinded Survival Classifier/scripts"
+cd "Blinded Survival Cancer Classifier/scripts"
 python train_and_eval.py --use_clinical --no_genomic
 
 # Full model (parent folder)
-cd "../../Survival Classifier/scripts"
+cd "../../Survival Cancer Classifier/scripts"
 python train_and_eval.py --use_clinical --use_genomic
 
 # Compare results

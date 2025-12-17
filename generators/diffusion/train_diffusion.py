@@ -19,7 +19,7 @@ from diffusion_model import create_diffusion_model
 from diffusion_utils import GaussianDiffusion, EMA
 from dataset_diffusion import load_and_preprocess_diffusion_data, create_dataloaders
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Classifier'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Cancer Classifier'))
 from graph_prior import load_graph_prior
 
 

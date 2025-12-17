@@ -39,15 +39,15 @@ TRAINING = {
 
 # Graph prior processing
 GRAPH_PRIOR = {
-    'diffusion_beta': 0.5,      # Beta parameter for diffusion kernel
+    'diffusion_beta': 0.5,           # Beta parameter for diffusion kernel
     'laplacian_type': 'normalized',  # 'normalized' or 'symmetric'
 }
 
 # Data preprocessing
 DATA = {
-    'missing_threshold': 0.5,   # Drop samples with >50% missing protein values
+    'missing_threshold': 0.5,     # Drop samples with >50% missing protein values
     'min_samples_per_class': 10,  # Minimum samples per cancer type
-    'min_events': 50            # Minimum events for meaningful survival analysis
+    'min_events': 50              # Minimum events for meaningful survival analysis
 }
 
 # Metrics

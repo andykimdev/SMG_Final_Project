@@ -128,7 +128,7 @@ TRAINING = {
 
 TRANSFER_LEARNING = {
     'use_pretrained': False,
-    'classifier_checkpoint': '../Classifier/outputs/checkpoints/best_model.pt',
+    'classifier_checkpoint': '../Cancer Classifier/outputs/checkpoints/best_model.pt',
     'freeze_graph_embeddings': False,
     'freeze_transformer': False,
     'lr_multiplier_embeddings': 0.1,

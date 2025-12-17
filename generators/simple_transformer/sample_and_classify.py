@@ -8,9 +8,9 @@ import sys
 from pathlib import Path
 
 repo_root = Path(__file__).resolve().parent.parent
-sys.path.append(str(repo_root / "Classifier"))
-from Classifier.graph_transformer_classifier import GraphTransformerClassifier
-from Classifier.graph_prior import load_graph_prior
+sys.path.append(str(repo_root / "Cancer Classifier"))
+from graph_transformer_classifier import GraphTransformerClassifier
+from graph_prior import load_graph_prior
 
 from . import config
 from .model import SimpleTransformerGenerator
@@ -60,7 +60,7 @@ def build_context(metadata, cancer_name, num_samples, device):
 
 def load_classifier(device):
     checkpoint = torch.load(
-        "Classifier/outputs/checkpoints/best_model.pt",
+        "Cancer Classifier/outputs/checkpoints/best_model.pt",
         map_location=device,
     )
     label_info = checkpoint["label_info"]

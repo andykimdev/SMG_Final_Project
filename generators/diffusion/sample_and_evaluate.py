@@ -49,7 +49,7 @@ from diffusion_utils import GaussianDiffusion, EMA
 from dataset_diffusion import create_synthetic_context
 
 # Add Classifier directory for graph prior
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Classifier'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'Cancer Classifier'))
 from graph_prior import load_graph_prior
 
 
