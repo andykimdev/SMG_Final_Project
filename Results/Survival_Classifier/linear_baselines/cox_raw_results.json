@@ -1,8 +1,0 @@
-{
-  "model_name": "cox_raw",
-  "n_features": 198,
-  "train_c_index": 0.7670425411569181,
-  "val_c_index": 0.7824583532686703,
-  "test_c_index": 0.7317546583850931,
-  "n_params": 198
-}

@@ -1,9 +1,0 @@
-{
-  "model_name": "elastic_net_cox",
-  "n_features": 198,
-  "n_selected": 17,
-  "train_c_index": 0.7264519257848681,
-  "val_c_index": 0.7329063546605193,
-  "test_c_index": 0.7042141131815045,
-  "n_params": 17
-}

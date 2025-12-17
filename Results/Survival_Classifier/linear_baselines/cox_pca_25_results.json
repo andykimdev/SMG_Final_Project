@@ -1,9 +1,0 @@
-{
-  "model_name": "cox_pca_25",
-  "n_components": 25,
-  "train_c_index": 0.7352040299330435,
-  "val_c_index": 0.7554477839154452,
-  "test_c_index": 0.7138328157349897,
-  "explained_variance": 0.6518901539647017,
-  "n_params": 25
-}
