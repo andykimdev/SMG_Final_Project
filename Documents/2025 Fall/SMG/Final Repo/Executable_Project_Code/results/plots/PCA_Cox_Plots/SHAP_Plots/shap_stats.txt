@@ -1,0 +1,44 @@
+======================================================================
+PCA SHAP Analysis Statistics
+======================================================================
+
+Dataset:
+  Samples analyzed: 250
+  Total proteins: 198
+  Cancer types: 32
+
+Importance distribution:
+  Mean: 0.301333
+  Median: 0.300511
+  Std: 0.017427
+  Min: 0.256935
+  Max: 0.353087
+
+Concentration of importance:
+  Top 95 proteins (48.0%) explain 50% of importance
+  Top 156 proteins (78.8%) explain 80% of importance
+  Top 177 proteins (89.4%) explain 90% of importance
+
+Top 20 Most Important Proteins:
+   1. PEA15|PEA15_pS116     (importance = 0.353087)
+   2. CHEK1|Chk1            (importance = 0.352340)
+   3. ESR1|ER-alpha         (importance = 0.345996)
+   4. GAPDH|GAPDH           (importance = 0.344188)
+   5. ETS1|ETS-1            (importance = 0.337278)
+   6. CLDN7|Claudin-7       (importance = 0.334171)
+   7. ESR1|ER-alpha_pS118   (importance = 0.333924)
+   8. ACACA|ACC1            (importance = 0.333824)
+   9. CDKN1A|p21            (importance = 0.332956)
+  10. GATA3|GATA3           (importance = 0.332625)
+  11. YAP1|YAP_pS127        (importance = 0.332538)
+  12. PRKAA1|AMPK_alpha     (importance = 0.330567)
+  13. FASN|FASN             (importance = 0.329995)
+  14. BECN1|Beclin          (importance = 0.329947)
+  15. CHEK1|Chk1_pS345      (importance = 0.328939)
+  16. SRC|Src_pY527         (importance = 0.327904)
+  17. ERBB2|HER2_pY1248     (importance = 0.327391)
+  18. PDK1|PDK1_pS241       (importance = 0.327335)
+  19. GSK3A GSK3B|GSK3-alpha-beta_pS21_S9  (importance = 0.326943)
+  20. ACACA ACACB|ACC_pS79  (importance = 0.325582)
+
+======================================================================

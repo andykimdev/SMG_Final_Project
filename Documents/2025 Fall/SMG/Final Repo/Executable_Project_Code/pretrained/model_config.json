@@ -1,0 +1,29 @@
+{
+  "MODEL": {
+    "embedding_dim": 128,
+    "n_layers": 4,
+    "n_heads": 8,
+    "ffn_dim": 512,
+    "dropout": 0.1,
+    "pe_dim": 16,
+    "graph_bias_scale": 1.0
+  },
+  "TRAINING": {
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "max_epochs": 100,
+    "patience": 15,
+    "grad_clip": 1.0
+  },
+  "GRAPH_PRIOR": {
+    "diffusion_beta": 0.5,
+    "laplacian_type": "normalized",
+    "pe_dim": 16
+  },
+  "DATA": {
+    "missing_threshold": 0.5,
+    "min_samples_per_class": 10
+  }
+}
+

@@ -1,0 +1,23 @@
+Top 20 Most Important Proteins
+==================================================
+
+ 1. ADAR|ADAR1
+ 2. ARID1A|ARID1A
+ 3. COPS5|JAB1
+ 4. GATA3|GATA3
+ 5. TIGAR|TIGAR
+ 6. FASN|FASN
+ 7. CASP3|Caspase-3
+ 8. ESR1|ER-alpha
+ 9. PARP1|PARP1
+10. MYH11|MYH11
+11. TFRC|TFRC
+12. CLDN7|Claudin-7
+13. PEA15|PEA15_pS116
+14. CCNE1|Cyclin_E1
+15. AR|AR
+16. PRKCD|PKC-delta_pS664
+17. MS4A1|CD20
+18. GAB2|GAB2
+19. CASP7|Caspase-7_cleavedD198
+20. RICTOR|Rictor_pT1135

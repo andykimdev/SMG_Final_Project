@@ -1,0 +1,23 @@
+Top 20 Most Important Proteins (PCA SHAP)
+==================================================
+
+ 1. PEA15|PEA15_pS116
+ 2. CHEK1|Chk1
+ 3. ESR1|ER-alpha
+ 4. GAPDH|GAPDH
+ 5. ETS1|ETS-1
+ 6. CLDN7|Claudin-7
+ 7. ESR1|ER-alpha_pS118
+ 8. ACACA|ACC1
+ 9. CDKN1A|p21
+10. GATA3|GATA3
+11. YAP1|YAP_pS127
+12. PRKAA1|AMPK_alpha
+13. FASN|FASN
+14. BECN1|Beclin
+15. CHEK1|Chk1_pS345
+16. SRC|Src_pY527
+17. ERBB2|HER2_pY1248
+18. PDK1|PDK1_pS241
+19. GSK3A GSK3B|GSK3-alpha-beta_pS21_S9
+20. ACACA ACACB|ACC_pS79

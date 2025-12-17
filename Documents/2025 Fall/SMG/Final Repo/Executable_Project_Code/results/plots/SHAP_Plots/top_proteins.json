@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "protein": "ADAR|ADAR1",
+    "importance": 0.32472534075286547,
+    "index": 191
+  },
+  {
+    "rank": 2,
+    "protein": "ARID1A|ARID1A",
+    "importance": 0.18447214720877242,
+    "index": 134
+  },
+  {
+    "rank": 3,
+    "protein": "COPS5|JAB1",
+    "importance": 0.18364629582526215,
+    "index": 197
+  },
+  {
+    "rank": 4,
+    "protein": "GATA3|GATA3",
+    "importance": 0.15961421897195238,
+    "index": 59
+  },
+  {
+    "rank": 5,
+    "protein": "TIGAR|TIGAR",
+    "importance": 0.15474893540526227,
+    "index": 172
+  },
+  {
+    "rank": 6,
+    "protein": "FASN|FASN",
+    "importance": 0.15262244565501806,
+    "index": 143
+  },
+  {
+    "rank": 7,
+    "protein": "CASP3|Caspase-3",
+    "importance": 0.1486687690895751,
+    "index": 194
+  },
+  {
+    "rank": 8,
+    "protein": "ESR1|ER-alpha",
+    "importance": 0.13552660699387117,
+    "index": 53
+  },
+  {
+    "rank": 9,
+    "protein": "PARP1|PARP1",
+    "importance": 0.13348771363440948,
+    "index": 196
+  },
+  {
+    "rank": 10,
+    "protein": "MYH11|MYH11",
+    "importance": 0.12182122192804332,
+    "index": 150
+  },
+  {
+    "rank": 11,
+    "protein": "TFRC|TFRC",
+    "importance": 0.09938323837922508,
+    "index": 174
+  },
+  {
+    "rank": 12,
+    "protein": "CLDN7|Claudin-7",
+    "importance": 0.09222191060173668,
+    "index": 39
+  },
+  {
+    "rank": 13,
+    "protein": "PEA15|PEA15_pS116",
+    "importance": 0.08735060831977393,
+    "index": 159
+  },
+  {
+    "rank": 14,
+    "protein": "CCNE1|Cyclin_E1",
+    "importance": 0.07724966345515179,
+    "index": 43
+  },
+  {
+    "rank": 15,
+    "protein": "AR|AR",
+    "importance": 0.07655288175025236,
+    "index": 12
+  },
+  {
+    "rank": 16,
+    "protein": "PRKCD|PKC-delta_pS664",
+    "importance": 0.07614529115600589,
+    "index": 103
+  },
+  {
+    "rank": 17,
+    "protein": "MS4A1|CD20",
+    "importance": 0.07341995565652717,
+    "index": 139
+  },
+  {
+    "rank": 18,
+    "protein": "GAB2|GAB2",
+    "importance": 0.07166496756939558,
+    "index": 58
+  },
+  {
+    "rank": 19,
+    "protein": "CASP7|Caspase-7_cleavedD198",
+    "importance": 0.06900895901780314,
+    "index": 29
+  },
+  {
+    "rank": 20,
+    "protein": "RICTOR|Rictor_pT1135",
+    "importance": 0.06900646366390925,
+    "index": 168
+  },
+  {
+    "rank": 21,
+    "protein": "SMAD1|Smad1",
+    "importance": 0.06823405159900812,
+    "index": 114
+  },
+  {
+    "rank": 22,
+    "protein": "CTNNA1|alpha-Catenin",
+    "importance": 0.06750256049088774,
+    "index": 192
+  },
+  {
+    "rank": 23,
+    "protein": "ESR1|ER-alpha_pS118",
+    "importance": 0.06709222299228243,
+    "index": 54
+  },
+  {
+    "rank": 24,
+    "protein": "PRKCA |PKC-alpha_pS657",
+    "importance": 0.06518141899270427,
+    "index": 102
+  },
+  {
+    "rank": 25,
+    "protein": "PGR|PR",
+    "importance": 0.06430514256066272,
+    "index": 104
+  },
+  {
+    "rank": 26,
+    "protein": "EGFR|EGFR",
+    "importance": 0.06326239617762053,
+    "index": 49
+  },
+  {
+    "rank": 27,
+    "protein": "VHL|VHL",
+    "importance": 0.06061901177702964,
+    "index": 177
+  },
+  {
+    "rank": 28,
+    "protein": "EGFR|EGFR_pY1173",
+    "importance": 0.060012771297554765,
+    "index": 51
+  },
+  {
+    "rank": 29,
+    "protein": "NKX2-1|TTF1",
+    "importance": 0.06000963935577881,
+    "index": 193
+  },
+  {
+    "rank": 30,
+    "protein": "ACVRL1|ACVRL1",
+    "importance": 0.05994697163566832,
+    "index": 183
+  },
+  {
+    "rank": 31,
+    "protein": "ANXA1|Annexin-1",
+    "importance": 0.059400281218882925,
+    "index": 185
+  },
+  {
+    "rank": 32,
+    "protein": "EEF2|eEF2",
+    "importance": 0.058079267217406826,
+    "index": 47
+  },
+  {
+    "rank": 33,
+    "protein": "YWHAE|14-3-3_epsilon",
+    "importance": 0.05720773483551307,
+    "index": 0
+  },
+  {
+    "rank": 34,
+    "protein": "ITGA2|CD49b",
+    "importance": 0.055426888463533774,
+    "index": 32
+  },
+  {
+    "rank": 35,
+    "protein": "COL6A1|Collagen_VI",
+    "importance": 0.05432190124014244,
+    "index": 40
+  },
+  {
+    "rank": 36,
+    "protein": "TUBA1B|Acetyl-a-Tubulin-Lys40",
+    "importance": 0.05346909774070195,
+    "index": 179
+  },
+  {
+    "rank": 37,
+    "protein": "GSK3A GSK3B|GSK3-alpha-beta",
+    "importance": 0.05323130186687661,
+    "index": 60
+  },
+  {
+    "rank": 38,
+    "protein": "BCL2|Bcl-2",
+    "importance": 0.05234287925763124,
+    "index": 17
+  },
+  {
+    "rank": 39,
+    "protein": "NDRG1|NDRG1_pT346",
+    "importance": 0.051697827697486216,
+    "index": 153
+  },
+  {
+    "rank": 40,
+    "protein": "PRKCA |PKC-alpha",
+    "importance": 0.051346900573629395,
+    "index": 101
+  },
+  {
+    "rank": 41,
+    "protein": "TGM2|Transglutaminase",
+    "importance": 0.05107426502483224,
+    "index": 173
+  },
+  {
+    "rank": 42,
+    "protein": "G6PD|G6PD",
+    "importance": 0.051055518058205906,
+    "index": 146
+  },
+  {
+    "rank": 43,
+    "protein": "ERCC1|ERCC1",
+    "importance": 0.05084615571178847,
+    "index": 187
+  },
+  {
+    "rank": 44,
+    "protein": "FN1|Fibronectin",
+    "importance": 0.050465912437560316,
+    "index": 56
+  },
+  {
+    "rank": 45,
+    "protein": "PREX1|PREX1",
+    "importance": 0.05027053745904854,
+    "index": 186
+  },
+  {
+    "rank": 46,
+    "protein": "CDKN1B|p27_pT157",
+    "importance": 0.048665554567951574,
+    "index": 88
+  },
+  {
+    "rank": 47,
+    "protein": "RAB25|Rab25",
+    "importance": 0.048276164541007575,
+    "index": 164
+  },
+  {
+    "rank": 48,
+    "protein": "KIT|c-Kit",
+    "importance": 0.048248349143005104,
+    "index": 24
+  },
+  {
+    "rank": 49,
+    "protein": "RPS6KB1|p70S6K_pT389",
+    "importance": 0.04793272846598939,
+    "index": 93
+  },
+  {
+    "rank": 50,
+    "protein": "BRCA2|BRCA2",
+    "importance": 0.04750517044322657,
+    "index": 138
+  }
+]

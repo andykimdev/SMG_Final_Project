@@ -1,0 +1,44 @@
+======================================================================
+SHAP Analysis Statistics
+======================================================================
+
+Dataset:
+  Samples analyzed: 250
+  Total proteins: 198
+  Cancer types: 32
+
+Importance distribution:
+  Mean: 0.044728
+  Median: 0.035878
+  Std: 0.034629
+  Min: 0.017206
+  Max: 0.324725
+
+Concentration of importance:
+  Top 56 proteins (28.3%) explain 50% of importance
+  Top 129 proteins (65.2%) explain 80% of importance
+  Top 160 proteins (80.8%) explain 90% of importance
+
+Top 20 Most Important Proteins:
+   1. ADAR|ADAR1            (importance = 0.324725)
+   2. ARID1A|ARID1A         (importance = 0.184472)
+   3. COPS5|JAB1            (importance = 0.183646)
+   4. GATA3|GATA3           (importance = 0.159614)
+   5. TIGAR|TIGAR           (importance = 0.154749)
+   6. FASN|FASN             (importance = 0.152622)
+   7. CASP3|Caspase-3       (importance = 0.148669)
+   8. ESR1|ER-alpha         (importance = 0.135527)
+   9. PARP1|PARP1           (importance = 0.133488)
+  10. MYH11|MYH11           (importance = 0.121821)
+  11. TFRC|TFRC             (importance = 0.099383)
+  12. CLDN7|Claudin-7       (importance = 0.092222)
+  13. PEA15|PEA15_pS116     (importance = 0.087351)
+  14. CCNE1|Cyclin_E1       (importance = 0.077250)
+  15. AR|AR                 (importance = 0.076553)
+  16. PRKCD|PKC-delta_pS664  (importance = 0.076145)
+  17. MS4A1|CD20            (importance = 0.073420)
+  18. GAB2|GAB2             (importance = 0.071665)
+  19. CASP7|Caspase-7_cleavedD198  (importance = 0.069009)
+  20. RICTOR|Rictor_pT1135  (importance = 0.069006)
+
+======================================================================
